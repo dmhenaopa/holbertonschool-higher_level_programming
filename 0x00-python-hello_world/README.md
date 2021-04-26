@@ -6,4 +6,5 @@ Short description of each script:
 + 4-print_float.py: A Python script that print the float stored in the variable number, with a precision of 2 digits, followed by a new line. 
 + 5-print_string.py: A Python script that print 3 times a string stored in the variable str, followed by its first 9 characters.
 + 6-concat.py: A Python script that print 'Welcome to Holberton School!'.
++ 7-edges.py: A Python script that print substrings of original string using index (strings can be indexed or subscripted).
 + 
