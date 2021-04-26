@@ -7,4 +7,5 @@ Short description of each script:
 + 5-print_string.py: A Python script that print 3 times a string stored in the variable str, followed by its first 9 characters.
 + 6-concat.py: A Python script that print 'Welcome to Holberton School!'.
 + 7-edges.py: A Python script that print substrings of original string using index (strings can be indexed or subscripted).
-+ 
++ 8-concat_edges.py: A Python script that print "object-oriented programming with Python" extracting substrings from a original string, using index.
++
