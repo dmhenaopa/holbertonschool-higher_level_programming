@@ -11,3 +11,6 @@ Short description of each script:
 + 9-easter_egg.py: A Python script that prints "The Zen of Python", by TimPeters, followed by a new line.
 + 10-check_cycle.c: A C function that checks if a singly linked list has a cycle in it.
 +
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEzMDI2NjQzMDldfQ==
+-->
