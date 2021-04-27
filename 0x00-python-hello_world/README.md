@@ -1,5 +1,5 @@
 ## :pencil2: Python - Hello World!
-This folder contains some useful scripts with basic Python and Python-related shell commands  to navigate the filesystem, change directories, list the files (incluided hidden files), use of arguments with the commands, manipulate files and search information about the usage of some of this commands. Some of the commands used in this scripts:
+This folder contains some useful scripts with basic Python and Python-related shell commands  to run python files. Some of the commands used in this scripts:
 
 | Scripts for |Commands used|
 |--|--|
@@ -35,5 +35,5 @@ Here a short description of each script:
 + [9-easter_egg.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/9-easter_egg.py): A Python script that prints "The Zen of Python", by TimPeters, followed by a new line.
 + [10-check_cycle.c](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/10-check_cycle.c): A C function that checks if a singly linked list has a cycle in it.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzUwOTUyNF19
+eyJoaXN0b3J5IjpbLTYxMTM4MzE0OV19
 -->
