@@ -10,19 +10,23 @@
 */
 int check_cycle(listint_t *list)
 {
-	struct listint_s *pointer;
+	int i;
+	struct listint_s *pointer[1024];
 
-	/* Obtain the first node memory address*/
-	pointer = list->next;
-	/* Move to the next node*/
+	pointer[0] = list->next;
 	list = list->next;
+
 	while (list != NULL)
 	{
-		/* Compare the address of first node and others nodes */
-		if (pointer == list->next)
+		i = 0;
+		for (; pointer[i] != NULL; i++)
 		{
-			return (1);
+			if (pointer[i] == list->next)
+			{
+				return (1);
+			}
 		}
+		pointer[i] = list->next;
 		list = list->next;
 	}
 	return (0);
