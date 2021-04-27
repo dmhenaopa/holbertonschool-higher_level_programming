@@ -15,9 +15,7 @@ For the shell and Python scripts, the way to execute them is by putting a period
 
 For the C file, we need to use the compiler GCC:
 
-    ``
-    gcc -Wall -Werror -Wextra -pedantic 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle
-``
+    gcc -Wall -Werror -Wextra -pedantic all_the_c_files.c -o output_name
 
 ### Executable files:
 
@@ -34,5 +32,5 @@ Here a short description of each script:
 + [9-easter_egg.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/9-easter_egg.py): A Python script that prints "The Zen of Python", by TimPeters, followed by a new line.
 + [10-check_cycle.c](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/10-check_cycle.c): A C function that checks if a singly linked list has a cycle in it.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzU4NjU1NzldfQ==
+eyJoaXN0b3J5IjpbMTg5NTMyMjgxMl19
 -->
