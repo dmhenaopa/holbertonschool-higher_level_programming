@@ -1,15 +1,8 @@
 ## :pencil2: Python - Hello World!
-This folder contains some useful scripts with basic Python and Python-related shell commands to run python scripts or code. Also, programs to print string, integer, float, and to . Some of the commands used in this scripts:
-
-| Scripts for |Commands used|
-|--|--|
-| Navigation | cd, pwd, ls | 
-| Looking around | ls, less, file |
-| Manipulating files | cp, mv, rm, mkdir|
-| Other commands | type, which, help, man |
+This folder contains some useful scripts with basic Python and Python-related shell commands to run python scripts or code. Also, programs to print string, integer, float, and to obtain substrings or to concatenate strings.
 
 ### Requirements:
-All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
+All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems.
 
 ### Usage:
 Verify that the files have execution permissions before being used! **If not, use the following command:**
@@ -35,5 +28,5 @@ Here a short description of each script:
 + [9-easter_egg.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/9-easter_egg.py): A Python script that prints "The Zen of Python", by TimPeters, followed by a new line.
 + [10-check_cycle.c](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/10-check_cycle.c): A C function that checks if a singly linked list has a cycle in it.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTUzMDE3OV19
+eyJoaXN0b3J5IjpbMTA4MTAwNjczNl19
 -->
