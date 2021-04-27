@@ -1,6 +1,6 @@
 Short description of each script:
-+ 0-run: A Shell script that runs a Python script.
-+ 1-run_inline: A Shell script that runs Python code.
++ [0-run](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/0-run): A Shell script that runs a Python script.
++ [1-run_inline](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/1-run_inline): A Shell script that runs Python code.
 + 2-print.py: A Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
 + 3-print_number.py: A Python script that print the integer stored in the variable number, followed by Battery street, followed by a new line.
 + 4-print_float.py: A Python script that print the float stored in the variable number, with a precision of 2 digits, followed by a new line. 
@@ -10,7 +10,6 @@ Short description of each script:
 + 8-concat_edges.py: A Python script that print "object-oriented programming with Python" extracting substrings from a original string, using index.
 + 9-easter_egg.py: A Python script that prints "The Zen of Python", by TimPeters, followed by a new line.
 + 10-check_cycle.c: A C function that checks if a singly linked list has a cycle in it.
-+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI2NjQzMDldfQ==
+eyJoaXN0b3J5IjpbLTQ3MjExNzQ2NV19
 -->
