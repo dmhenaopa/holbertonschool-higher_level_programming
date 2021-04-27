@@ -1,8 +1,8 @@
 ## :pencil2: Python - Hello World!
-This folder contains some useful scripts with basic Python and Python-related shell commands to run python scripts or code. Also, programs to print string, integer, float, and to obtain substrings or to concatenate strings. Finally, 
+This folder contains some useful scripts with basic Python and Python-related shell commands to run python scripts or code. Also, programs to print strings, integers, float numbers, and how to obtain substrings or to concatenate strings. Finally, we also have C script that allow to detect if there is a cycle in a linked list. 
 
 ### Requirements:
-All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems.
+All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. 
 
 ### Usage:
 Verify that the files have execution permissions before being used! **If not, use the following command:**
@@ -28,5 +28,5 @@ Here a short description of each script:
 + [9-easter_egg.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/9-easter_egg.py): A Python script that prints "The Zen of Python", by TimPeters, followed by a new line.
 + [10-check_cycle.c](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/10-check_cycle.c): A C function that checks if a singly linked list has a cycle in it.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3MjU0ODQxXX0=
+eyJoaXN0b3J5IjpbMTk0ODkwODQ2N119
 -->
