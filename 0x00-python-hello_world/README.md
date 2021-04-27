@@ -31,6 +31,7 @@ Here a short description of each script:
 + [8-concat_edges.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/8-concat_edges.py): A Python script that print "object-oriented programming with Python" extracting substrings from a original string, using index.
 + [9-easter_egg.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/9-easter_egg.py): A Python script that prints "The Zen of Python", by TimPeters, followed by a new line.
 + [10-check_cycle.c](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/10-check_cycle.c): A C function that checks if a singly linked list has a cycle in it.
++ [100-write.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/100-write.py): A Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line, using write from the sys module instead print.
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTg5NTMyMjgxMl19
 -->
