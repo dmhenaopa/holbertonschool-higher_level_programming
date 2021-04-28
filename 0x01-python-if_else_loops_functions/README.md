@@ -1,5 +1,5 @@
 ## :pencil2: Python - if, else, loops and functions
-This folder contains some useful scripts with basic Python commands to run Python. Programs and functions to print strings, integers, float numbers... using conditionals and loops. 
+This folder contains some useful scripts with basic Python commands to run Python. Programs and functions to print strings, integers, float numbers or verify some condition using conditionals and loops. 
 
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
@@ -16,8 +16,8 @@ For the Python scripts, the way to execute them is by putting a period and a sla
 ### Executable files:
 
 Here a short description of each script:
-+ 0-positive_or_negative.py: This program will assign a random signed number to the variable number each time it is executed, and print if the random number is positive, zero or negative.
-+ 1-last_digit.py: This program will assign a random signed number to the variable number each time it is executed. The program print the last digit of the number stored in the variable number, and if the last digit is greater than 5 or 0 or less han 6 and not 0.
++ [0-positive_or_negative.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/0-positive_or_negative.py): This program will assign a random signed number to the variable number each time it is executed, and print if the random number is positive, zero or negative.
++ [1-last_digit.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/1-last_digit.py): This program will assign a random signed number to the variable number each time it is executed. The program print the last digit of the number stored in the variable number, and if the last digit is greater than 5 or 0 or less han 6 and not 0.
 + 2-print_alphabet.py: A program that prints the ASCII alphabet, in lowercase, not followed by a new line.
 + 3-print_alphabt.py: A program that prints the ASCII alphabet, in lowercase, except the letters q and e, not followed by a new line.
 + 4-print_hexa.py: This program prints all numbers from 0 to 98 in decimal and in hexadecimal.
@@ -32,5 +32,5 @@ Here a short description of each script:
 + 100-print_tebahpla.py: A program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase), not followed by a new line.
 +
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDk2MjkwN119
+eyJoaXN0b3J5IjpbLTIwNDc2MTYwMTBdfQ==
 -->
