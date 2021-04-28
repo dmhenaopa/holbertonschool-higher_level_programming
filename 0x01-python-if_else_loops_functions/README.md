@@ -14,3 +14,6 @@ A short description of each script:
 + 12-fizzbuzz.py: A function that prints the numbers from 1 to 100 separated by a space. For multiples of three print Fizz instead of the number and for multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
 + 100-print_tebahpla.py: A program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase), not followed by a new line.
 +
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjEzNDAyMDM0MV19
+-->
