@@ -10,4 +10,5 @@ A short description of each script:
 + 8-uppercase.py: Function that prints a string in uppercase followed by a new line.
 + 9-print_last_digit.py: A function that prints the last digit of a number.
 + 10-add.py: Function that adds two integers and returns the result.
++ 11-pow.py: A function that computes a to the power of b and return the value.
 +
