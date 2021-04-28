@@ -1,4 +1,21 @@
-A short description of each script:
+## :pencil2: Python - if, else, loops and functions
+This folder contains some useful scripts with basic Python and Python-related shell commands to run python scripts or code. Also, programs to print strings, integers, float numbers, and how to obtain substrings or to concatenate strings. Finally, we also have C script that allow to detect if there is a cycle in a linked list. 
+
+### Requirements:
+All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
+
+### Usage:
+Verify that the files have execution permissions before being used! **If not, use the following command:**
+
+    chmod u+x name_of_file ###To make the file executable
+
+For the Python scripts, the way to execute them is by putting a period and a slash before the command name. As follows:
+
+    ./name_of_file ###To execute the file
+
+### Executable files:
+
+Here a short description of each script:
 + 0-positive_or_negative.py: This program will assign a random signed number to the variable number each time it is executed, and print if the random number is positive, zero or negative.
 + 1-last_digit.py: This program will assign a random signed number to the variable number each time it is executed. The program print the last digit of the number stored in the variable number, and if the last digit is greater than 5 or 0 or less han 6 and not 0.
 + 2-print_alphabet.py: A program that prints the ASCII alphabet, in lowercase, not followed by a new line.
@@ -15,5 +32,5 @@ A short description of each script:
 + 100-print_tebahpla.py: A program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase), not followed by a new line.
 +
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDAyMDM0MV19
+eyJoaXN0b3J5IjpbLTg1MjA4NTY3OV19
 -->
