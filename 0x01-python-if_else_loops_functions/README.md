@@ -11,4 +11,5 @@ A short description of each script:
 + 9-print_last_digit.py: A function that prints the last digit of a number.
 + 10-add.py: Function that adds two integers and returns the result.
 + 11-pow.py: A function that computes a to the power of b and return the value.
++ 12-fizzbuzz.py: A function that prints the numbers from 1 to 100 separated by a space. For multiples of three print Fizz instead of the number and for multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
 +
