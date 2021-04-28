@@ -8,4 +8,5 @@ A short description of each script:
 + 6-print_comb3.py: This program that prints all possible different combinations of two digits. Numbers are separated by comma, followed by a space. The two digits are different and print only the smallest combination of two digits. Numbers be printed in ascending order, with two digits. The last number be followed by a new line.
 + 7-islower.py: This program have a function that checks for lowercase character. Returns True if c is lowercase or False otherwise.
 + 8-uppercase.py: Function that prints a string in uppercase followed by a new line.
++ 9-print_last_digit.py: A function that prints the last digit of a number.
 +
