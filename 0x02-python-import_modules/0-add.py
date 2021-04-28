@@ -5,5 +5,4 @@ if __name__ == "__main__":
     a = 1
     b = 2
 
-    value = function_add.add(a, b)
-    print("{:d} + {:d} = {:d}".format(a, b, value))
+    print("{:d} + {:d} = {:d}".format(a, b, function_add.add(a, b)))
