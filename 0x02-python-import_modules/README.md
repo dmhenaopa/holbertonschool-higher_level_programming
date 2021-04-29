@@ -1,5 +1,5 @@
 ## :pencil2: Python - import and modules
-This folder contains some useful Python scripts. Programs with examples on how to  
+This folder contains some useful Python scripts. Programs with examples on what is a module, how can this module be imported, how can be imported the variables of this module and specific functions. Also, the use of div() m 
 
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
@@ -23,5 +23,5 @@ Here a short description of each script:
 + 5-variable_load.py: A program that imports the variable a from the file variable_load_5.py and prints its value.
 + 100-my_calculator.py: A program that imports all functions from the file calculator_1.py and handles basic operations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjc5MDY3MTldfQ==
+eyJoaXN0b3J5IjpbMzM1NjU4NzgxXX0=
 -->
