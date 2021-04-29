@@ -32,6 +32,7 @@ Here a short description of each script:
 + [9-easter_egg.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/9-easter_egg.py): A Python script that prints "The Zen of Python", by TimPeters, followed by a new line.
 + [10-check_cycle.c](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/10-check_cycle.c): A C function that checks if a singly linked list has a cycle in it.
 + [100-write.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/100-write.py): A Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line, using write from the sys module instead print.
++ [101-compile](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/101-compile): A script that compiles a Python script file using compileall module in Python.
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTg5NTMyMjgxMl19
 -->
