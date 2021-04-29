@@ -1,5 +1,5 @@
 ## :pencil2: Python - import and modules
-This folder contains some useful scripts with basic Python and Python-related shell commands to run python scripts or code. Also, programs to print strings, integers, float numbers, and how to obtain substrings or to concatenate strings. Finally, we also have C script that allow to detect if there is a cycle in a linked list. 
+This folder contains some useful Python scripts. Programs with examples on how to  
 
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
@@ -23,5 +23,5 @@ Here a short description of each script:
 + 5-variable_load.py: A program that imports the variable a from the file variable_load_5.py and prints its value.
 + 100-my_calculator.py: A program that imports all functions from the file calculator_1.py and handles basic operations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4MDgyMjQ2XX0=
+eyJoaXN0b3J5IjpbLTE1Mjc5MDY3MTldfQ==
 -->
