@@ -1,4 +1,20 @@
-A short description of each script:
+## :pencil2: Python - import and modules
+This folder contains some useful scripts with basic Python and Python-related shell commands to run python scripts or code. Also, programs to print strings, integers, float numbers, and how to obtain substrings or to concatenate strings. Finally, we also have C script that allow to detect if there is a cycle in a linked list. 
+
+### Requirements:
+All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
+
+### Usage:
+Verify that the files have execution permissions before being used! **If not, use the following command:**
+
+    chmod u+x name_of_file ###To make the file executable
+
+For the Python scripts, the way to execute them is by putting a period and a slash before the command name. As follows:
+
+    ./name_of_file ###To execute the file
+
+### Executable files:
+Here a short description of each script:
 + 0-add.py: A program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3.
 + 1-calculation.py: A program that imports functions from the file calculator_1.py, does some maths, and prints the result.
 + 2-args.py: A program that prints the number of and the list of its arguments. The output is the number of arguments followed by one line per argument.
@@ -7,5 +23,5 @@ A short description of each script:
 + 5-variable_load.py: A program that imports the variable a from the file variable_load_5.py and prints its value.
 + 100-my_calculator.py: A program that imports all functions from the file calculator_1.py and handles basic operations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyNjc3OTQwXX0=
+eyJoaXN0b3J5IjpbOTQ4MDgyMjQ2XX0=
 -->
