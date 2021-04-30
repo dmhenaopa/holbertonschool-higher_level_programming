@@ -33,6 +33,7 @@ Here a short description of each script:
 + [10-check_cycle.c](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/10-check_cycle.c): A C function that checks if a singly linked list has a cycle in it.
 + [100-write.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/100-write.py): A Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line, using write from the sys module instead print.
 + [101-compile](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/101-compile): A script that compiles a Python script file using compileall module in Python.
++ [102-magic_calculation.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x00-python-hello_world/102-magic_calculation.py): A Python function that does exactly the same as a Python bytecode.
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTg5NTMyMjgxMl19
 -->
