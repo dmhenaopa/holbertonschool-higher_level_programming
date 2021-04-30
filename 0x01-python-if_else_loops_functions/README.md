@@ -30,7 +30,7 @@ Here a short description of each script:
 + [11-pow.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/11-pow.py): A function that computes a to the power of b and return the value.
 + [12-fizzbuzz.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/12-fizzbuzz.py): A function that prints the numbers from 1 to 100 separated by a space. For multiples of three print Fizz instead of the number and for multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
 + [100-print_tebahpla.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/100-print_tebahpla.py): A program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase), not followed by a new line.
-+
++ [102-magic_calculation.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/102-magic_calculation.py): A Python function that does exactly the same as a Python bytecode.
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTM4MzE2NDEwMl19
 -->
