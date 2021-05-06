@@ -30,7 +30,7 @@ def add_tuple(tuple_a=(), tuple_b=()):
             elif length_a == 0 and length_b == 1:
                 new_tuple = (0 + tuple_b[0], 0 + 0)
 
-            else:
+            elif length_a <= 0 and length_b <= 0:
                 new_tuple = (0 + 0, 0 + 0)
 
     return new_tuple
