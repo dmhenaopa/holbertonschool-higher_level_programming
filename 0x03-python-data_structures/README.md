@@ -8,4 +8,5 @@ This is a short description of each script:
 + 6-print_matrix_integer.py: A function that prints a matrix of integers.
 + 7-add_tuple.py: A function that adds 2 tuples. Returns a tuple with 2 integers: The first element will be the addition of the first element of each argument. The second element will be the addition of the second element of each argument.
 + 8-multiple_returns.py: A function that returns a tuple with the length of a string and its first character.
++ 9-max_integer.py: A function that finds the biggest integer of a list.
 +
