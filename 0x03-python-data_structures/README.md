@@ -5,4 +5,5 @@ This is a short description of each script:
 + 3-print_reversed_list_integer.py: A function that prints all integers of a list, in reverse order.
 + 4-new_in_list.py: A function that replaces an element in a list at a specific position without modifying the original list.
 + 5-no_c.py: A function that removes all characters c and C from a string.
++ 6-print_matrix_integer.py: A function that prints a matrix of integers.
 +
