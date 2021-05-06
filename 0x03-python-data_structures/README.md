@@ -1,6 +1,6 @@
 ## :pencil2: Python - Data structures: lists and tuples
 
-This folder contains some useful scripts with basic Python  about the basic use of these data structures. The use of the index in the lists, some functions like len, 
+This folder contains some useful scripts with basic Python  about the basic use of these data structures. The use of the index in the lists, some functions like len, del instead of pop(), how to switch variable values without the use of an auxiliar variable, reverse(
 
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
@@ -40,5 +40,5 @@ This is a short description of each script:
  12-switch.py: A function to switch value of a and b.
 +
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1Nzg4MDUzXX0=
+eyJoaXN0b3J5IjpbLTIxMzQxNDc0N119
 -->
