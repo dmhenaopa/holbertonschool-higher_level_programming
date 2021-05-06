@@ -11,4 +11,6 @@ This is a short description of each script:
 + 9-max_integer.py: A function that finds the biggest integer of a list.
 + 10-divisible_by_2.py: A function that finds all multiples of 2 in a list. Return a new list with True of False, depending on whether the integer at the same position in the original list is a multiple of 2.
 + 11-delete_at.py: A function that deletes the item at a specific position in a list. If idx is negative or out of range, nothing change (returns the same list).
++ 12-switch.py: A function to switch value of a and b.
+ 12-switch.py: A function to switch value of a and b.
 +
