@@ -9,4 +9,5 @@ This is a short description of each script:
 + 7-add_tuple.py: A function that adds 2 tuples. Returns a tuple with 2 integers: The first element will be the addition of the first element of each argument. The second element will be the addition of the second element of each argument.
 + 8-multiple_returns.py: A function that returns a tuple with the length of a string and its first character.
 + 9-max_integer.py: A function that finds the biggest integer of a list.
++ 10-divisible_by_2.py: A function that finds all multiples of 2 in a list. Return a new list with True of False, depending on whether the integer at the same position in the original list is a multiple of 2.
 +
