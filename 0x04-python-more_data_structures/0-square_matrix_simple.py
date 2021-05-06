@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
     new_list = []
-    length = len(matrix)
+    length = len(matrix) - 1
 
     for i in range(0, len(matrix)):
         for j in range(0, 3):
