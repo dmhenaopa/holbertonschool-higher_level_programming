@@ -1,4 +1,18 @@
-Short descriptions about each script:
+## :pencil2: Python - More data structures
+This folder contains some useful scripts with basic Python about the use of tuples, lists, sets and dictionaries. We use 
+
+### Requirements:
+All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
+
+### Usage:
+Verify that the files have execution permissions before being used! **If not, use the following command:**
+
+    chmod u+x name_of_file ###To make the file executable
+
+For the shell and Python scripts, the way to execute them is by putting a period and a slash before the command name. As follows:
+
+    ./name_of_file ###To execute the file
+
 + 0-square_matrix_simple.py: A function that computes the square value of all integers of a matrix.
 + 1-search_replace.py: A function that replaces all occurrences of an element by another in a new list.
 + 2-uniq_add.py: A function that adds all unique integers in a list (only once for each integer).
@@ -14,5 +28,5 @@ Short descriptions about each script:
 + 100-weight_average.py: Write a function that returns the weighted average of all integers tuple (<score>, <weight>)
 + 102-complex_delete.py: A function that deletes keys with a specific value in a dictionary.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5NTA4NzNdfQ==
+eyJoaXN0b3J5IjpbMTc3MTI3MzAwMF19
 -->
