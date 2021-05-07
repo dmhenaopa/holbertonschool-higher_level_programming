@@ -11,3 +11,5 @@ Short descriptions about each script:
 + 9-multiply_by_2.py: A function that returns a new dictionary with all values multiplied by 2.
 + 10-best_score.py: A function that returns a key with the biggest integer value.
 + 11-multiply_list_map.py: Write a function that returns a list with all values multiplied by a number without using any loops. Returns a new list: Same length as my_list and each value should be multiplied by number.
++ 100-weight_average.py: Write a function that returns the weighted average of all integers tuple (<score>, <weight>)
++
