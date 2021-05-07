@@ -12,4 +12,4 @@ Short descriptions about each script:
 + 10-best_score.py: A function that returns a key with the biggest integer value.
 + 11-multiply_list_map.py: Write a function that returns a list with all values multiplied by a number without using any loops. Returns a new list: Same length as my_list and each value should be multiplied by number.
 + 100-weight_average.py: Write a function that returns the weighted average of all integers tuple (<score>, <weight>)
-+
++ 102-complex_delete.py: A function that deletes keys with a specific value in a dictionary.
