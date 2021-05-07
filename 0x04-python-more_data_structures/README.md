@@ -23,13 +23,13 @@ Here a short description of each script:
 + [4-only_diff_elements.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/4-only_diff_elements.py): A function that returns a set of all elements present in only one set.
 + [5-number_keys.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/5-number_keys.py): A function that returns the number of keys in a dictionary.
 + [6-print_sorted_dictionary.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/6-print_sorted_dictionary.py): A function that prints a dictionary by ordered keys.
-+ 7-update_dictionary.py: A function that replaces or adds key/value in a dictionary.
-+ 8-simple_delete.py: A function that deletes a key in a dictionary.
-+ 9-multiply_by_2.py: A function that returns a new dictionary with all values multiplied by 2.
-+ 10-best_score.py: A function that returns a key with the biggest integer value.
-+ 11-multiply_list_map.py: Write a function that returns a list with all values multiplied by a number without using any loops. Returns a new list: Same length as my_list and each value should be multiplied by number.
-+ 100-weight_average.py: Write a function that returns the weighted average of all integers tuple (<score>, <weight>)
-+ 102-complex_delete.py: A function that deletes keys with a specific value in a dictionary.
++ [7-update_dictionary.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/7-update_dictionary.py): A function that replaces or adds key/value in a dictionary.
++ [8-simple_delete.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/8-simple_delete.py): A function that deletes a key in a dictionary.
++ [9-multiply_by_2.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/9-multiply_by_2.py): A function that returns a new dictionary with all values multiplied by 2.
++ [10-best_score.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/10-best_score.py): A function that returns a key with the biggest integer value.
++ [11-multiply_list_map.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/11-multiply_list_map.py): Write a function that returns a list with all values multiplied by a number without using any loops. Returns a new list: Same length as my_list and each value should be multiplied by number.
++ [100-weight_average.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/100-weight_average.py): Write a function that returns the weighted average of all integers tuple.
++ [102-complex_delete.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/102-complex_delete.py): A function that deletes keys with a specific value in a dictionary.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTk1NTM1MV19
+eyJoaXN0b3J5IjpbLTE2NjMyNjU0NDBdfQ==
 -->
