@@ -1,5 +1,5 @@
 ## :pencil2: Python - More data structures
-This folder contains some useful scripts with basic Python about the use of tuples, lists, sets and dictionaries. We use 
+This folder contains some useful scripts with basic Python about the use of tuples, lists, sets and dictionaries. We use some functions like sort(), append(), copy(), items(), key(), value(). 
 
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
@@ -28,5 +28,5 @@ For the shell and Python scripts, the way to execute them is by putting a period
 + 100-weight_average.py: Write a function that returns the weighted average of all integers tuple (<score>, <weight>)
 + 102-complex_delete.py: A function that deletes keys with a specific value in a dictionary.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTI3MzAwMF19
+eyJoaXN0b3J5IjpbNzAwMzI0Nzg5XX0=
 -->
