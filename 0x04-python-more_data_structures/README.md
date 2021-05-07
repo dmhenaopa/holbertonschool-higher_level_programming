@@ -1,5 +1,5 @@
 ## :pencil2: Python - More data structures
-This folder contains some useful scripts with basic Python about the use of tuples, lists, sets and dictionaries. We use some functions like sort(), append(), copy(), items(), key(), value(). 
+This folder contains some useful scripts with basic Python about the use of tuples, lists, sets and dictionaries. We use some functions like sort(), append(), copy(), items(), key(), value(). We learn how to traverse a dictionary and a list. How to obtain values and keys in dictionaries or only values in lists and how to operate this values.
 
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
@@ -13,6 +13,9 @@ For the shell and Python scripts, the way to execute them is by putting a period
 
     ./name_of_file ###To execute the file
 
+### Executable files:
+
+Here a short description of each script:
 + 0-square_matrix_simple.py: A function that computes the square value of all integers of a matrix.
 + 1-search_replace.py: A function that replaces all occurrences of an element by another in a new list.
 + 2-uniq_add.py: A function that adds all unique integers in a list (only once for each integer).
@@ -28,5 +31,5 @@ For the shell and Python scripts, the way to execute them is by putting a period
 + 100-weight_average.py: Write a function that returns the weighted average of all integers tuple (<score>, <weight>)
 + 102-complex_delete.py: A function that deletes keys with a specific value in a dictionary.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwMzI0Nzg5XX0=
+eyJoaXN0b3J5IjpbNTczNzUxNTg0XX0=
 -->
