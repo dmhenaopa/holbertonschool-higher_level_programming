@@ -22,9 +22,9 @@ Here a short description of each script:
 + [3-safe_print_division.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x05-python-exceptions/3-safe_print_division.py): A function that divides 2 integers and prints the result. Return the value of the division. Otherwise, returns None.
 + [4-list_division.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x05-python-exceptions/4-list_division.py): A function that divides element by element 2 lists. The list can contain any type (integer, string...). Returns a new list with all divisions.
 + [5-raise_exception.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x05-python-exceptions/5-raise_exception.py): A function that raises a type exception.
-+ 6-raise_exception_msg.py: A function that raises a name exception with a message.
-+ 100-safe_print_integer_err.py: A function that prints an integer. Returns True if value has been correctly printed (it means the value is an integer). Otherwise, returns False and prints in stderr the error precede by Exception:.
-+ 101-safe_function.py: A function that executes a function safely. Returns the result of the function, otherwise, returns None if something happens during the function and prints in stderr the error precede by Exception:.
++ [6-raise_exception_msg.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x05-python-exceptions/5-raise_exception.py): A function that raises a name exception with a message.
++ [100-safe_print_integer_err.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x05-python-exceptions/100-safe_print_integer_err.py): A function that prints an integer. Returns True if value has been correctly printed (it means the value is an integer). Otherwise, returns False and prints in stderr the error precede by Exception:.
++ [101-safe_function.py](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x05-python-exceptions/101-safe_function.py): A function that executes a function safely. Returns the result of the function, otherwise, returns None if something happens during the function and prints in stderr the error precede by Exception:.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTE1MDc0NzZdfQ==
+eyJoaXN0b3J5IjpbLTIwODY3MTkwNjNdfQ==
 -->
