@@ -1,5 +1,5 @@
 ## :pencil2: Python - Exceptions
-This folder contains some useful scripts with basic Python commands to run python scripts or code handling errors and exceptions: try, except and finally. Examples of the use of TypeError, ValueError, Zero Exception and the use of raise.
+This folder contains some useful scripts with basic Python commands to run python scripts or code handling errors and exceptions: try, except and finally. Examples of the use of TypeError, ValueError, ZeroDivisionError, Exception and the use of raise to customize the exception.
 
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
@@ -9,13 +9,9 @@ Verify that the files have execution permissions before being used! **If not, us
 
     chmod u+x name_of_file ###To make the file executable
 
-For the shell and Python scripts, the way to execute them is by putting a period and a slash before the command name. As follows:
+For the Python scripts, the way to execute them is by putting a period and a slash before the command name. As follows:
 
     ./name_of_file ###To execute the file
-
-For the C file, we need to use the compiler GCC:
-
-    gcc -Wall -Werror -Wextra -pedantic all_the_c_files.c -o output_name
 
 ### Executable files:
 
@@ -30,5 +26,5 @@ Here a short description of each script:
 + 100-safe_print_integer_err.py: A function that prints an integer. Returns True if value has been correctly printed (it means the value is an integer). Otherwise, returns False and prints in stderr the error precede by Exception:.
 + 101-safe_function.py: A function that executes a function safely. Returns the result of the function, otherwise, returns None if something happens during the function and prints in stderr the error precede by Exception:.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTUyNTA0MTZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDk5MzYwNjRdfQ==
 -->
