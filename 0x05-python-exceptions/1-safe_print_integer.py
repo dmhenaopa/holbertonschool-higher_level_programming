@@ -9,3 +9,6 @@ def safe_print_integer(value):
 
     except TypeError as exc:
         return False
+
+    except ValueError as err:
+        return False
