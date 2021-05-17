@@ -7,4 +7,4 @@ Short description of each script/file:
 + 5-raise_exception.py: A function that raises a type exception.
 + 6-raise_exception_msg.py: A function that raises a name exception with a message.
 + 100-safe_print_integer_err.py: A function that prints an integer. Returns True if value has been correctly printed (it means the value is an integer). Otherwise, returns False and prints in stderr the error precede by Exception:.
-+ 
++ 101-safe_function.py: A function that executes a function safely. Returns the result of the function, otherwise, returns None if something happens during the function and prints in stderr the error precede by Exception:.
