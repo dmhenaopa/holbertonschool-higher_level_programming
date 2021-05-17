@@ -6,4 +6,5 @@ Short description of each script/file:
 + 4-list_division.py: A function that divides element by element 2 lists. The list can contain any type (integer, string...). Returns a new list with all divisions.
 + 5-raise_exception.py: A function that raises a type exception.
 + 6-raise_exception_msg.py: A function that raises a name exception with a message.
-+
++ 100-safe_print_integer_err.py: A function that prints an integer. Returns True if value has been correctly printed (it means the value is an integer). Otherwise, returns False and prints in stderr the error precede by Exception:.
++ 
