@@ -1,5 +1,5 @@
 ## :pencil2: Python - Exceptions
-This folder contains some useful scripts with basic Python commands to run python scripts or code handling errors and exceptions
+This folder contains some useful scripts with basic Python commands to run python scripts or code handling errors and exceptions: try, except and finally. Examples of the use of TypeError, ValueError, Zero Exception and the use of raise.
 
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
@@ -30,5 +30,5 @@ Here a short description of each script:
 + 100-safe_print_integer_err.py: A function that prints an integer. Returns True if value has been correctly printed (it means the value is an integer). Otherwise, returns False and prints in stderr the error precede by Exception:.
 + 101-safe_function.py: A function that executes a function safely. Returns the result of the function, otherwise, returns None if something happens during the function and prints in stderr the error precede by Exception:.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY2MjQ3OTFdfQ==
+eyJoaXN0b3J5IjpbLTEwMTUyNTA0MTZdfQ==
 -->
