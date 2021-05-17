@@ -4,4 +4,5 @@ Short description of each script/file:
 + 2-safe_print_list_integers.py: A function that prints the first x elements of a list and only integers. Returns the number of integers printed.
 + 3-safe_print_division.py: A function that divides 2 integers and prints the result. Return the value of the division. Otherwise, returns None.
 + 4-list_division.py: A function that divides element by element 2 lists. The list can contain any type (integer, string...). Returns a new list with all divisions.
++ 5-raise_exception.py: A function that raises a type exception.
 +
