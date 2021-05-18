@@ -6,6 +6,8 @@ In this repository we have some basic scripts to use in Python. This is the firs
 + [0x03-python-data_structures](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/tree/master/0x03-python-data_structures)
 + [0x04-python-more_data_structures](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/tree/master/0x04-python-more_data_structures)
 + [0x05-python-exceptions](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/tree/master/0x05-python-exceptions)
++ [0x06-python-classes](https://github.com/dmhenaopa//
+holbertonschool-higher_level_programming/tree/master/0x06-python-classes)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE0MTE2NzI5Ml19
 -->
