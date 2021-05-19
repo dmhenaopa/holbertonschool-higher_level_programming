@@ -1,5 +1,5 @@
 ## :pencil2: Python - Classes and objects
-This folder contains some useful scripts with basic Python modules.
+This folder contains some useful scripts with basic Python modules to understand the Object Oriented Programming concepts. Class, fields, method
 
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
@@ -28,5 +28,5 @@ Here a short description of each script:
 + 5-square.py: A class Square that defines a square. Private instance attribute: size: property def size(self): to retrieve it. Property setter def size(self, value): to set it: size must be an integer, otherwise raise a TypeError exception with the message size must be an integer. If size is less than 0, raise a ValueError exception with the message size must be >= 0. Public instance method: def my_print(self): that prints in stdout the square with the character #.
 + 6-square.py: A class Square that defines a square. Private instance attribute: size: property def size(self): to retrieve it. Property setter def size(self, value): to set it: size must be an integer, otherwise raise a TypeError exception with the message size must be an integer. If size is less than 0, raise a ValueError exception with the message size must be >= 0. Private instance attribute: position: property def position(self): to retrieve it. property setter def position(self, value): to set it:position must be a tuple of 2 positive integers, otherwise raise a TypeError exception with the message position must be a tuple of 2 positive integers. Instantiation with optional size and optional position: def __init__(self, size=0, position=(0, 0)):. Public instance method: def area(self): that returns the current square area. Public instance method: def my_print(self): that prints in stdout the square with the character #: if size is equal to 0, print an empty line. Position should be use by using space - Don’t fill lines by spaces when position[1] > 0.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5OTAxNzQyXX0=
+eyJoaXN0b3J5IjpbMTIyOTAzMjkyNV19
 -->
