@@ -11,9 +11,6 @@ class Rectangle:
        __width: Private instance attribute
        __height: Private instance attribute
     """
-    __height = 0
-    __width = 0
-
     def __init__(self, width=0, height=0):
         """__init__ method to initialize the Rectangle
            instance with a width and height
