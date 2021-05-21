@@ -8,6 +8,7 @@ In this repository we have some basic scripts to use in Python. This is the firs
 + [0x05-python-exceptions](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/tree/master/0x05-python-exceptions)
 + [0x06-python-classes](https://github.com/dmhenaopa//holbertonschool-higher_level_programming/tree/master/0x06-python-classes)
 + [0x08-python-more_classes](https://github.com/dmhenaopa//holbertonschool-higher_level_programming/tree/master/0x08-python-more_classes)
++ [0x09-python-everything_is_object](https://github.com/dmhenaopa//holbertonschool-higher_level_programming/tree/master/0x09-python-everything_is_object)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE0MTE2NzI5Ml19
 -->
