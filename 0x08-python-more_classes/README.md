@@ -1,4 +1,21 @@
-Short description of each script:
+## :pencil2: Python - More Classes and Objects
+This folder contains some useful scripts with basic Python and Python-related shell commands to run python scripts or code. Also, programs to print strings, integers, float numbers, and how to obtain substrings or to concatenate strings. Finally, we also have C script that allow to detect if there is a cycle in a linked list. 
+
+### Requirements:
+All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
+
+### Usage:
+Verify that the files have execution permissions before being used! **If not, use the following command:**
+
+    chmod u+x name_of_file ###To make the file executable
+
+For Python scripts, the way to execute them is by putting a dot and a slash before the command name. As follows:
+
+    ./name_of_file ###To execute the file
+
+### Executable files:
+
+Here a short description of each script:
 + 0-rectangle.py: An empty class Rectangle that defines a rectangle.
 + 1-rectangle.py: A class Rectangle that defines a rectangle. Private instance attributes: width and height: property def width(self) or def height(self): to retrieve it, property setter def width(self, value) or def height(self, value): to set it: width and height must be an integer, otherwise raise a TypeError exception with the message width or height must be an integer. If width or height is less than 0, raise a ValueError exception with the message width or height must be >= 0.
 + 2-rectangle.py: A class Rectangle that defines a rectangle. Private instance attributes: width and height: property def width(self) or def height(self): to retrieve it, property setter def width(self, value) or def height(self, value): to set it: width and height must be an integer, otherwise raise a TypeError exception with the message width or height must be an integer. If width or height is less than 0, raise a ValueError exception with the message width or height must be >= 0. A public instance method: def area(self): that returns the rectangle area. Public instance method: def perimeter(self): that returns the rectangle perimeter.
@@ -10,5 +27,5 @@ Short description of each script:
 + 8-rectangle.py: A class Rectangle that defines a rectangle. Private instance attributes: width and height: property def width(self) or def height(self): to retrieve it, property setter def width(self, value) or def height(self, value): to set it: width and height must be an integer, otherwise raise a TypeError exception with the message width or height must be an integer. If width or height is less than 0, raise a ValueError exception with the message width or height must be >= 0. A public instance method: def area(self): that returns the rectangle area. Public instance method: def perimeter(self): that returns the rectangle perimeter. print() and str() should print the rectangle with the character #. repr() should return a string representation of the rectangle to be able to recreate a new instance by using eval(). Print the message Bye rectangle... (... being 3 dots not ellipsis) when an instance of Rectangle is deleted. Public class attribute number_of_instances initialized to 0. Incremented during each new instance instantiation. Decremented during each instance deletion. Public class attribute print_symbol: Initialized to #. Used as symbol for string representation. Can be any type. With Static method def bigger_or_equal(rect_1, rect_2): that returns the biggest rectangle based on the area. 
 + 9-rectangle.py: A class Rectangle that defines a rectangle. Private instance attributes: width and height: property def width(self) or def height(self): to retrieve it, property setter def width(self, value) or def height(self, value): to set it: width and height must be an integer, otherwise raise a TypeError exception with the message width or height must be an integer. If width or height is less than 0, raise a ValueError exception with the message width or height must be >= 0. A public instance method: def area(self): that returns the rectangle area. Public instance method: def perimeter(self): that returns the rectangle perimeter. print() and str() should print the rectangle with the character #. repr() should return a string representation of the rectangle to be able to recreate a new instance by using eval(). Print the message Bye rectangle... (... being 3 dots not ellipsis) when an instance of Rectangle is deleted. Public class attribute number_of_instances initialized to 0. Incremented during each new instance instantiation. Decremented during each instance deletion. Public class attribute print_symbol: Initialized to #. Used as symbol for string representation. Can be any type. With Static method def bigger_or_equal(rect_1, rect_2): that returns the biggest rectangle based on the area. Class method def square(cls, size=0): that returns a new Rectangle instance with width == height == size.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTgyNTgwOTVdfQ==
+eyJoaXN0b3J5IjpbNzE4MTUyNDIwXX0=
 -->
