@@ -114,4 +114,5 @@ class Rectangle:
         return string
 
     def __del__(self):
+        """Print message when an instance of Rectangle is deleted"""
         print("{}".format("Bye rectangle..."))
