@@ -28,4 +28,3 @@ Short description of each file:
 + 26-answer.txt: What does this script print? a = (), b = (), print(a is b)
 + 27-answer.txt: Will the last line of this script print 139926795932424? id(a), 139926795932424, a, [1, 2, 3, 4], a = a + [5], id(a)
 + 28-answer.txt: Will the last line of this script print 139926795932424? a, [1, 2, 3], id (a), 139926795932424, a += [4], id(a)
-+ 103-line1.txt and 103-line2.txt: With script int.py (a = 1, b = 1) how many int objects are created by the execution of the first line of the script? (103-line1.txt). How many int objects are created by the execution of the second line of the script (103-line2.txt). 
