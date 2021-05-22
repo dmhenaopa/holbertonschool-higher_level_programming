@@ -17,7 +17,7 @@ For the shell and Python scripts, the way to execute them is by putting a period
 ### Executable files and text files:
 
 Here a short description of each text file or script:
-+ 0-answer.txt: What function would you use to print the type of an object?
++ [0-answer.txt](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x09-python-everything_is_object/0-answer.txt): What function would you use to print the type of an object?
 + 1-answer.txt: How do you get the variable identifier (which is the memory address in the CPython implementation)?
 + 2-answer.txt: Do a and b point to the same object? a = 89, b = 100
 + 3-answer.txt: Do a and b point to the same object? a = 89, b = 89
@@ -47,5 +47,5 @@ Here a short description of each text file or script:
 + 27-answer.txt: Will the last line of this script print 139926795932424? id(a), 139926795932424, a, [1, 2, 3, 4], a = a + [5], id(a)
 + 28-answer.txt: Will the last line of this script print 139926795932424? a, [1, 2, 3], id (a), 139926795932424, a += [4], id(a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzQyNTY4N119
+eyJoaXN0b3J5IjpbNjAyMDcwMTE1XX0=
 -->
