@@ -1,6 +1,7 @@
 
 ## :pencil2: Python - Everything is object
-In this project we resolve some questions about how Python works with different types of objects: Integers, strings, tuples, lists. Additional, some characteristics related with mutable and immutable values of different types of variables. Also, the use of aliasing and the use of 
+In this project we resolve some questions about how Python works with different types of objects: Integers, strings, tuples, lists. Additional, some characteristics related with mutable and immutable values of different types of variables. Also, the use of aliasing and the use of cloning of some type variables like lists.
+
 ### Requirements:
 The command were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
 
@@ -13,13 +14,10 @@ For the shell and Python scripts, the way to execute them is by putting a period
 
     ./name_of_file ###To execute the file
 
-For the C file, we need to use the compiler GCC:
-
-    gcc -Wall -Werror -Wextra -pedantic all_the_c_files.c -o output_name
-
 ### Executable files and text files:
 
-Here a short description of each script:+ 0-answer.txt: What function would you use to print the type of an object?
+Here a short description of each text file or script:
++ 0-answer.txt: What function would you use to print the type of an object?
 + 1-answer.txt: How do you get the variable identifier (which is the memory address in the CPython implementation)?
 + 2-answer.txt: Do a and b point to the same object? a = 89, b = 100
 + 3-answer.txt: Do a and b point to the same object? a = 89, b = 89
@@ -49,5 +47,5 @@ Here a short description of each script:+ 0-answer.txt: What function would you 
 + 27-answer.txt: Will the last line of this script print 139926795932424? id(a), 139926795932424, a, [1, 2, 3, 4], a = a + [5], id(a)
 + 28-answer.txt: Will the last line of this script print 139926795932424? a, [1, 2, 3], id (a), 139926795932424, a += [4], id(a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjkwMDc3XX0=
+eyJoaXN0b3J5IjpbMTYwMzQyNTY4N119
 -->
