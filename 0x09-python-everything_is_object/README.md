@@ -1,6 +1,6 @@
 
 ## :pencil2: Python - Everything is object
-In this project we resolve some questions about how Python works with different types of objects: Integers, strings, tuples, lists. We 
+In this project we resolve some questions about how Python works with different types of objects: Integers, strings, tuples, lists. Additional, some characteristics related with mutable and immutable values of different types of variables. Also, the use of aliasing and the use of 
 ### Requirements:
 The command were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
 
@@ -49,5 +49,5 @@ Here a short description of each script:+ 0-answer.txt: What function would you 
 + 27-answer.txt: Will the last line of this script print 139926795932424? id(a), 139926795932424, a, [1, 2, 3, 4], a = a + [5], id(a)
 + 28-answer.txt: Will the last line of this script print 139926795932424? a, [1, 2, 3], id (a), 139926795932424, a += [4], id(a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQ5NjA1ODddfQ==
+eyJoaXN0b3J5IjpbMTY2MjkwMDc3XX0=
 -->
