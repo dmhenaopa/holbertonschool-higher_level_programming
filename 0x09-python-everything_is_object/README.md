@@ -6,6 +6,7 @@ In this project we resolve some questions about how Python works with different 
 The command were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
 
 ### Usage:
+Most of the files are text files with the answer. In case the file is a script:
 
 Verify that the script file have execution permissions before being used! **If not, use the following command:**
 
@@ -48,5 +49,5 @@ Here a short description of each text file or script:
 + [27-answer.txt](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x09-python-everything_is_object/27-answer.txt): Will the last line of this script print 139926795932424? id(a), 139926795932424, a, [1, 2, 3, 4], a = a + [5], id(a)
 + [28-answer.txt](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x09-python-everything_is_object/28-answer.txt): Will the last line of this script print 139926795932424? a, [1, 2, 3], id (a), 139926795932424, a += [4], id(a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTgwMjkyMzFdfQ==
+eyJoaXN0b3J5IjpbLTExMDM5MDY1MzBdfQ==
 -->
