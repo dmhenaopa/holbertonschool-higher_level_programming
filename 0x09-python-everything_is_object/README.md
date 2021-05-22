@@ -1,5 +1,26 @@
-Short description of each file:
-+ 0-answer.txt: What function would you use to print the type of an object?
+
+## :pencil2: Python - Everything is object
+This project 
+
+### Requirements:
+All commands were tested on Ubuntu 14.04 LTS. Although the commands might work well on other distributions, versions or operative systems. The Python linter was PEP8, and the version of Python was Python 3.4.3. 
+
+### Usage:
+Verify that the files have execution permissions before being used! **If not, use the following command:**
+
+    chmod u+x name_of_file ###To make the file executable
+
+For the shell and Python scripts, the way to execute them is by putting a period and a slash before the command name. As follows:
+
+    ./name_of_file ###To execute the file
+
+For the C file, we need to use the compiler GCC:
+
+    gcc -Wall -Werror -Wextra -pedantic all_the_c_files.c -o output_name
+
+### Executable files and text files:
+
+Here a short description of each script:+ 0-answer.txt: What function would you use to print the type of an object?
 + 1-answer.txt: How do you get the variable identifier (which is the memory address in the CPython implementation)?
 + 2-answer.txt: Do a and b point to the same object? a = 89, b = 100
 + 3-answer.txt: Do a and b point to the same object? a = 89, b = 89
@@ -29,5 +50,5 @@ Short description of each file:
 + 27-answer.txt: Will the last line of this script print 139926795932424? id(a), 139926795932424, a, [1, 2, 3, 4], a = a + [5], id(a)
 + 28-answer.txt: Will the last line of this script print 139926795932424? a, [1, 2, 3], id (a), 139926795932424, a += [4], id(a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTU1Mjk3NV19
+eyJoaXN0b3J5IjpbLTgwMDIyOTM0OV19
 -->
