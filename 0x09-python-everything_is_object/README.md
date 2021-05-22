@@ -28,3 +28,6 @@ Short description of each file:
 + 26-answer.txt: What does this script print? a = (), b = (), print(a is b)
 + 27-answer.txt: Will the last line of this script print 139926795932424? id(a), 139926795932424, a, [1, 2, 3, 4], a = a + [5], id(a)
 + 28-answer.txt: Will the last line of this script print 139926795932424? a, [1, 2, 3], id (a), 139926795932424, a += [4], id(a)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTgwOTU1Mjk3NV19
+-->
