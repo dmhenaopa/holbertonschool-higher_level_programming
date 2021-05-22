@@ -18,16 +18,16 @@ For the shell and Python scripts, the way to execute them is by putting a period
 
 Here a short description of each text file or script:
 + [0-answer.txt](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x09-python-everything_is_object/0-answer.txt): What function would you use to print the type of an object?
-+ 1-answer.txt: How do you get the variable identifier (which is the memory address in the CPython implementation)?
-+ 2-answer.txt: Do a and b point to the same object? a = 89, b = 100
-+ 3-answer.txt: Do a and b point to the same object? a = 89, b = 89
-+ 4-answer.txt: Do a and b point to the same object? a = 89, b = a
-+ 5-answer.txt: Do a and b point to the same object? a = 89, b = a + 1
-+ 6-answer.txt: What do these 3 lines print? s1 = "Holberton", s2 = s1, print(s1 == s2)
-+ 7-answer.txt: What do these 3 lines print? s1 = "Holberton", s2 = s1, print(s1 is s2)
-+ 8-answer.txt: What do these 3 lines print? s1 = "Holberton", s2 = "Holberton", print(s1 == s2)
-+ 9-answer.txt: What do these 3 lines print? s1 = "Holberton", s2 = "Holberton", print(s1 == s2)
-+ 10-answer.txt: What do these 3 lines print? l1 = [1, 2, 3], l2 = [1, 2, 3], print(l1 == l2)
++ [1-answer.txt](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x09-python-everything_is_object/1-answer.txt): How do you get the variable identifier (which is the memory address in the CPython implementation)?
++ [2-answer.txt](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x09-python-everything_is_object/2-answer.txt): Do a and b point to the same object? a = 89, b = 100
++ [3-answer.txt](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x09-python-everything_is_object/3-answer.txt): Do a and b point to the same object? a = 89, b = 89
++ [4-answer.txt](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x09-python-everything_is_object/4-answer.txt): Do a and b point to the same object? a = 89, b = a
++ [5-answer.txt](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x09-python-everything_is_object/5-answer.txt): Do a and b point to the same object? a = 89, b = a + 1
++ [6-answer.txt](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x09-python-everything_is_object/6-answer.txt): What do these 3 lines print? s1 = "Holberton", s2 = s1, print(s1 == s2)
++ [7-answer.txt](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x09-python-everything_is_object/7-answer.txt): What do these 3 lines print? s1 = "Holberton", s2 = s1, print(s1 is s2)
++ [8-answer.txt](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x09-python-everything_is_object/8-answer.txt): What do these 3 lines print? s1 = "Holberton", s2 = "Holberton", print(s1 == s2)
++ [9-answer.txt](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x09-python-everything_is_object/9-answer.txt): What do these 3 lines print? s1 = "Holberton", s2 = "Holberton", print(s1 == s2)
++ [10-answer.txt](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x09-python-everything_is_object/10-answer.txt): What do these 3 lines print? l1 = [1, 2, 3], l2 = [1, 2, 3], print(l1 == l2)
 + 11-answer.txt: What do these 3 lines print? l1 = [1, 2, 3], l2 = [1, 2, 3], print(l1 is l2)
 + 12-answer.txt: What do these 3 lines print? l1 = [1, 2, 3], l2 = l1, print(l1 == l2)
 + 13-answer.txt: What do these 3 lines print? l1 = [1, 2, 3], l2 = l1, print(l1 is l2)
@@ -47,5 +47,5 @@ Here a short description of each text file or script:
 + 27-answer.txt: Will the last line of this script print 139926795932424? id(a), 139926795932424, a, [1, 2, 3, 4], a = a + [5], id(a)
 + 28-answer.txt: Will the last line of this script print 139926795932424? a, [1, 2, 3], id (a), 139926795932424, a += [4], id(a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyMDcwMTE1XX0=
+eyJoaXN0b3J5IjpbMjEwMjMwNTQ3XX0=
 -->
