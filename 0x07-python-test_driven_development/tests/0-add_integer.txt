@@ -1,0 +1,72 @@
+The ``0-add_integer`` module
+=============================
+
+Using ``add_integer``
+-----------------------------
+
+This is a doctest to the add integer module created to
+make the sumatory of two integers.
+
+>>> add_integer = __import__("0-add_integer").add_integer
+
+============================
+Normal examples
+----------------------------
+>>> add_integer(5, 5)
+10
+>>> add_integer(1000, 940)
+1940
+
+============================
+With value(s) zero
+----------------------------
+>>> add_integer(0, 0)
+0
+>>> add_integer(10, 0)
+10
+>>> add_integer(0, 50)
+50
+
+============================
+With negative values
+----------------------------
+>>> add_integer(-5, -9)
+-14
+>>> add_integer(-40, 50)
+10
+>>> add_integer(86, -6)
+80
+
+===========================
+Float values
+---------------------------
+>>> add_integer(5.4, 5)
+10
+>>> add_integer(30, 7.3)
+37
+>>> add_integer(7.7, 12.4)
+19
+
+==================================
+Not float or integer values
+----------------------------------
+>>> add_integer("string", "string")
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer
+>>> add_integer(10, "string")
+Traceback (most recent call last):
+    ...
+TypeError: b must be an integer
+>>> add_integer("string", 100)
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer
+
+==================================
+Not values
+----------------------------------
+>>> add_integer()
+Traceback (most recent call last):
+    ...
+TypeError: add_integer() missing 1 required positional argument: 'a'
