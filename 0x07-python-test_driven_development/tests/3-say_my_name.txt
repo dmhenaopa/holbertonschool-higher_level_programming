@@ -1,0 +1,60 @@
+The ``3-say_my_name`` module
+=============================
+
+Using ``say_my_name``
+-----------------------------
+
+This is a doctest to the say my name module created to
+print the first and last name.
+
+>>> say_my_name = __import__("3-say_my_name").say_my_name
+
+==============================
+Normal examples
+------------------------------
+>>> say_my_name("Diana", "Henao")
+My name is Diana Henao
+>>> say_my_name("Maria", "Parra")
+My name is Maria Parra
+
+==============================
+If arguments isn't strings
+------------------------------
+>>> say_my_name(5, "Henao")
+Traceback (most recent call last):
+    ...
+TypeError: first_name must be a string
+>>> say_my_name("Maria", 8)
+Traceback (most recent call last):
+    ...
+TypeError: last_name must be a string
+>>> say_my_name(5, 8)
+Traceback (most recent call last):
+    ...
+TypeError: first_name must be a string
+
+==============================
+If arguments are empty strings
+------------------------------
+>>> say_my_name("", "Smith")
+My name is  Smith
+>>> say_my_name("", "")
+My name is  
+
+======================================
+If there aren't one or both arguments
+--------------------------------------
+>>> say_my_name("Bob")
+My name is Bob 
+>>> say_my_name(None, None)
+Traceback (most recent call last):
+    ...
+TypeError: first_name must be a string
+>>> say_my_name(, "Bob")
+Traceback (most recent call last):
+    ...
+SyntaxError: invalid syntax
+>>> say_my_name()
+Traceback (most recent call last):
+    ...
+TypeError: say_my_name() missing 1 required positional argument: 'first_name'
