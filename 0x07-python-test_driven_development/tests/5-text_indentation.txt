@@ -1,0 +1,49 @@
+The ``5-text_indentation`` module
+==================================
+
+Using ``text_indentation``
+----------------------------------
+
+This is a doctest that prints a text
+with 2 new lines after each of these
+characters .  ?  :.
+
+>>> text_indentation = __import__("5-text_indentation").text_indentation
+
+===================================
+Normal examples
+-----------------------------------
+>>> text_indentation("Lorem ipsum dolor sit amet.")
+Lorem ipsum dolor sit amet.
+
+==========================================
+If the text doesn't have these characters
+------------------------------------------
+>>> text_indentation("Lorem ipsum dolor sit amet consectetur adipiscing elit")
+Lorem ipsum dolor sit amet consectetur adipiscing elit
+
+==========================================
+If the text is not a string
+------------------------------------------
+>>> text_indentation(5)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
+>>> text_indentation(['This', 'is', 'a', 'list'])
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
+
+==========================================
+If the text is an empty string
+------------------------------------------
+>>> text_indentation("")
+
+
+==========================================
+If the text has more than one character
+------------------------------------------
+>>> text_indentation("Quonam modo?.:")
+Quonam modo?
+.
+:
