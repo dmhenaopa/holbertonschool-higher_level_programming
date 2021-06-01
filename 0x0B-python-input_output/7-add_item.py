@@ -18,5 +18,10 @@ if path.is_file():
         """ List of arguments - 1 because the 0 is command """
         list_arg.append(argv[i])
 
+else:
+    for i in range(1, len(argv)):
+        """ List of arguments - 1 because the 0 is command """
+        list_arg.append(argv[i])
+
 """ Writes an object to a text file """
 save_to_json_file(list_arg, my_file)
