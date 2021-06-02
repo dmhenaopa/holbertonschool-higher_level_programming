@@ -16,7 +16,7 @@ class MyList(list):
 
         if type(self) is not list:
             raise TypeError('the argument must be a list')
-        
+
         new_list = self[:]
         new_list.sort()
         print(new_list)
