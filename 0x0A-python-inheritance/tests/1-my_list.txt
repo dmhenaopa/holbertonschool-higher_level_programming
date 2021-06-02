@@ -49,27 +49,27 @@ It's not a list
 >>> my_list.print_sorted((2, 5))
 Traceback (most recent call last):
     ...
-TypeError: the argument must be a list
+AttributeError: 'tuple' object has no attribute 'sort'
 
 >>> my_list.print_sorted({"brand": "Ford", "model": "Mustang"})
 Traceback (most recent call last):
     ...
-TypeError: the argument must be a list
+TypeError: unhashable type: 'slice'
 
 >>> my_list.print_sorted(10)
 Traceback (most recent call last):
     ...
-TypeError: the argument must be a list
+TypeError: 'int' object is not subscriptable
 
 >>> my_list.print_sorted("My_list")
 Traceback (most recent call last):
     ...
-TypeError: the argument must be a list
+AttributeError: 'str' object has no attribute 'sort'
 
 >>> my_list.print_sorted(None)
 Traceback (most recent call last):
     ...
-TypeError: the argument must be a list
+TypeError: 'NoneType' object is not subscriptable
 
 ==========================
 It's an empty list
