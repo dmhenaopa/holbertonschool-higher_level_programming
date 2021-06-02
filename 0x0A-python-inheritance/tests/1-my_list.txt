@@ -1,0 +1,78 @@
+The ``1-my_list``module
+=========================
+
+Using ``print_sorted``
+-------------------------
+
+This is a doctest to the my list module created to
+sort a list and sort in ascending order.
+
+>>> my_list = __import__("1-my_list").MyList
+
+==========================
+Normal examples
+--------------------------
+>>> my_list.print_sorted([10, 4, 5, 3])
+[3, 4, 5, 10]
+
+==========================
+With mixed values
+(positives and negatives)
+--------------------------
+>>> my_list.print_sorted([10, -4, 5, -3])
+[-4, -3, 5, 10]
+
+==========================
+With only negative values
+--------------------------
+>>> my_list.print_sorted([-10, -4, -5, -3])
+[-10, -5, -4, -3]
+
+==========================
+With zero values
+--------------------------
+>>> my_list.print_sorted([0, 0, 0, 0])
+[0, 0, 0, 0]
+>>> my_list.print_sorted([0])
+[0]
+
+==========================
+If there are one or more numbers
+with the same value
+--------------------------
+>>> my_list.print_sorted([40, 2, 2, 2, 10])
+[2, 2, 2, 10, 40]
+
+==========================
+It's not a list
+--------------------------
+>>> my_list.print_sorted((2, 5))
+Traceback (most recent call last):
+    ...
+TypeError: the argument must be a list
+
+>>> my_list.print_sorted({"brand": "Ford", "model": "Mustang"})
+Traceback (most recent call last):
+    ...
+TypeError: the argument must be a list
+
+>>> my_list.print_sorted(10)
+Traceback (most recent call last):
+    ...
+TypeError: the argument must be a list
+
+>>> my_list.print_sorted("My_list")
+Traceback (most recent call last):
+    ...
+TypeError: the argument must be a list
+
+>>> my_list.print_sorted(None)
+Traceback (most recent call last):
+    ...
+TypeError: the argument must be a list
+
+==========================
+It's an empty list
+--------------------------
+>>> my_list.print_sorted([])
+[]
