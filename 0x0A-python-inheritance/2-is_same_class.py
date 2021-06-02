@@ -11,9 +11,6 @@ def is_same_class(obj, a_class):
             param1 (obj): The object to verify
             param2 (a_class: The specified class
     """
-    if a_class is object:
-        return
-
     if type(obj) is a_class:
         return True
 
