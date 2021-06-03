@@ -1,0 +1,91 @@
+The ``7-base_geometry`` module
+===================================
+
+Using ``integer_validator``
+-----------------------------------
+
+This is a doctest to base-geometry module created to
+validate if the argument value is an integer number
+
+>>> BaseGeometry = __import__("7-base_geometry").BaseGeometry
+>>> base = BaseGeometry()
+ 
+===================================
+Normal examples
+-----------------------------------
+>>> base.integer_validator("my_int", 12)
+
+>>> base.integer_validator("width", 89)
+
+
+===================================
+Value as a string
+-----------------------------------
+>>> base.integer_validator("my_str", "my_string")
+Traceback (most recent call last):
+    ...
+TypeError: my_str must be an integer
+
+===================================
+Value as a list
+-----------------------------------
+>>> base.integer_validator("my_list", [1, 2, 3])
+Traceback (most recent call last):
+    ...
+TypeError: my_list must be an integer
+
+===================================
+Value as a tuple
+-----------------------------------
+>>> base.integer_validator("my_tuple", (1, 2, 3))
+Traceback (most recent call last):
+    ...
+TypeError: my_tuple must be an integer
+
+===================================
+Value as a dictionary
+-----------------------------------
+>>> base.integer_validator("my_dict", {"brand": "Ford", "model": "Mustang"})
+Traceback (most recent call last):
+    ...
+TypeError: my_dict must be an integer
+
+====================================
+Value as a float
+------------------------------------
+>>> base.integer_validator("my_float", 7.4)
+Traceback (most recent call last):
+    ...
+TypeError: my_float must be an integer
+
+====================================
+Value equal to 0
+------------------------------------
+>>> base.integer_validator("my_zero", 0)
+Traceback (most recent call last):
+    ...
+ValueError: my_zero must be greater than 0
+
+=====================================
+Value is a negative number
+-------------------------------------
+>>> base.integer_validator("my_negative", -10)
+Traceback (most recent call last):
+    ...
+ValueError: my_negative must be greater than 0
+
+=======================================
+Not a value
+---------------------------------------
+>>> base.integer_validator("my_none", None)
+Traceback (most recent call last):
+    ...
+TypeError: my_none must be an integer
+
+=======================================
+Without area() function implementation
+---------------------------------------
+>>> base.area()
+Traceback (most recent call last):
+    ...
+Exception: area() is not implemented
