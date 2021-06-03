@@ -10,4 +10,4 @@ A short description of each file:
 + 8-rectangle.py: A class Rectangle that inherits from BaseGeometry (7-base_geometry.py). width and height must be positive integers, validated by integer_validator (class BaseGeometry).
 + 9-rectangle.py: A class Rectangle that inherits from BaseGeometry (7-base_geometry.py). width and height must be positive integers, validated by integer_validator (class BaseGeometry). The area() method are implemented.
 + 10-square.py: A class Square that inherits from Rectangle (9-rectangle.py).
-+
++ 11-square.py: A class Square that inherits from Rectangle (9-rectangle.py). (task based on 10-square.py). The area() method are implemented.
