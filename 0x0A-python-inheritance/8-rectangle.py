@@ -43,8 +43,8 @@ class Rectangle(BaseGeometry):
                 param1 (width): The width of the rectangle
                 param2 (height): The height of the rectangle
         """
-        self.integer_validator("width", width)
-        self.integer_validator("height", height)
+        if self.integer_validator("width", width):
+            self.__width = width
 
-        self.__width = width
-        self.__height = height
+        if self.integer_validator("height", height):
+            self.__height = height
