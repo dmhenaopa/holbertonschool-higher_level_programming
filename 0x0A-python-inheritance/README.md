@@ -8,3 +8,5 @@ A short description of each file:
 + 6-base_geometry.py: A class BaseGeometry. With a public instance method: def area(self): that raises an Exception with the message area() is not implemented.
 + 7-base_geometry.py: A class BaseGeometry. With a public instance method: def area(self): that raises an Exception with the message area() is not implemented. Public instance method: def integer_validator(self, name, value): that validates value as an integer.
 + 8-rectangle.py: Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py). width and height must be positive integers, validated by integer_validator (class BaseGeometry).
++ 9-rectangle.py: Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py). width and height must be positive integers, validated by integer_validator (class BaseGeometry). The area() method are implemented.
++
