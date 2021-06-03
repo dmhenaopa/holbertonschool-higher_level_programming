@@ -12,7 +12,9 @@ def inherits_from(obj, a_class):
             param1 (obj): The object to verify
             param2 (a_class): The specified class
     """
-    if type(obj) is not a_class:
+    type_of = type(obj)
+
+    if type_of is not a_class and issubclass(type_of, a_class):
         return True
     else:
         return False
