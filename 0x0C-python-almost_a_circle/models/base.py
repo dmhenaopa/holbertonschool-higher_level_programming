@@ -60,4 +60,4 @@ class Base:
                 list_objects.append(cls.to_dictionary(object))
 
         with open(filename, mode='w', encoding='utf-8') as my_file:
-            json.dump(list_objects, my_file)
+            my_file.write(cls.to_json_string(list_objects))
