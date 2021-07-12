@@ -5,4 +5,5 @@ A short description of each script:
 + 3-list_tables.sql: A script that lists all the tables of a database in your MySQL server. The database name will be passed as argument of mysql command.
 + 4-first_table.sql: A script that creates a table called first_table in the current database in your MySQL server. first_table description: id INT, name VARCHAR(256).
 + 5-full_table.sql: Script that prints the full description of the table first_table from the database hbtn_0c_0 in your MySQL server.
++ 6-list_values.sql: Script that lists all rows of the table first_table from the database hbtn_0c_0 in your MySQL server.
 +
