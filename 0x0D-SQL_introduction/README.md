@@ -14,4 +14,5 @@ id INT, name VARCHAR(256), score INT. Create these records: id = 1, name = “Jo
 + 11-best_score.sql: Script that lists all records with a score >= 10 in the table second_table of the database hbtn_0c_0 in your MySQL server. Results should display both the score and the name (in this order). Records should be ordered by score (top first).
 + 12-no_cheating.sql: Script that updates the score of Bob to 10 in the table second_table.
 + 13-change_class.sql: Script that removes all records with a score <= 5 in the table second_table of the database hbtn_0c_0 in your MySQL server.
++ 14-average.sql: Script that computes the score average of all records in the table second_table of the database hbtn_0c_0 in your MySQL server. The result column name should be average.
 +
