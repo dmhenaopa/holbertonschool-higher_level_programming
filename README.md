@@ -13,6 +13,7 @@ In this repository we have some basic scripts to use in Python. This is the firs
 + [0x0B-python-input_output](https://github.com/dmhenaopa//holbertonschool-higher_level_programming/tree/master/0x0B-python-input_output)
 + [0x0C-python-almost_a_circle](https://github.com/dmhenaopa//holbertonschool-higher_level_programming/tree/master/0x0C-python-almost_a_circle)
 + [0x0D-SQL_introduction](https://github.com/dmhenaopa//holbertonschool-higher_level_programming/tree/master/0x0D-SQL_introduction)
++ [0x0E-SQL_more_queries](https://github.com/dmhenaopa//holbertonschool-higher_level_programming/tree/master/0x0E-SQL_more_queries)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE0MTE2NzI5Ml19
 -->
