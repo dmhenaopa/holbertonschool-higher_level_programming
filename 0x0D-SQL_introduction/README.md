@@ -5,7 +5,7 @@ This folder contains some scripts to use the open source database management sof
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
 
-
+Additionaly, 
 A short description of each script:
 + 0-list_databases.sql: A script that lists all databases of your MySQL server.
 + 1-create_database_if_missing.sql: A script that creates the database hbtn_0c_0 in your MySQL server. If the database hbtn_0c_0 already exists, don't fail.
@@ -26,5 +26,5 @@ id INT, name VARCHAR(256), score INT. Create these records: id = 1, name = “Jo
 + 15-groups.sql: Script that lists the number of records with the same score in the table second_table of the database hbtn_0c_0 in your MySQL server. The result should display: the score and the number of records for this score with the label number. The list should be sorted by the number of records (descending).
 + 16-no_link.sql: Script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server. Don’t list rows without a name value. Results should display the score and the name (in this order). Records should be listed by descending score.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTAyNjMwM119
+eyJoaXN0b3J5IjpbMTI3NTc5ODMwN119
 -->
