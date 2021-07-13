@@ -17,3 +17,6 @@ id INT, name VARCHAR(256), score INT. Create these records: id = 1, name = “Jo
 + 14-average.sql: Script that computes the score average of all records in the table second_table of the database hbtn_0c_0 in your MySQL server. The result column name should be average.
 + 15-groups.sql: Script that lists the number of records with the same score in the table second_table of the database hbtn_0c_0 in your MySQL server. The result should display: the score and the number of records for this score with the label number. The list should be sorted by the number of records (descending).
 + 16-no_link.sql: Script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server. Don’t list rows without a name value. Results should display the score and the name (in this order). Records should be listed by descending score.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE3ODE3MDY5NjZdfQ==
+-->
