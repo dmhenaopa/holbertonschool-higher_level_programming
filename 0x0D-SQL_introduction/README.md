@@ -18,11 +18,14 @@ You need to execute as follows:
 
 Some of the files additionally require that you pass the name of the database with which you want to work or that you want to modify. In these cases the execution will be like this:
 
-cat 3-list_tables.sql | mysql -hlocalhost -uroot -p mysql
+    cat file.sql | mysql -hlocalhost -uroot -p mydatabase
 
-A short description of each script:
-+ 0-list_databases.sql: A script that lists all databases of your MySQL server.
-+ 1-create_database_if_missing.sql: A script that creates the database hbtn_0c_0 in your MySQL server. If the database hbtn_0c_0 already exists, don't fail.
+### Executable files:
+
+Here a short description of each script:
+
++ [0-list_databases.sql](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x0D-SQL_introduction/0-list_databases.sql): A script that lists all databases of your MySQL server.
++ [1-create_database_if_missing.sql](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x0D-SQL_introduction/1-create_database_if_missing.sql): A script that creates the database hbtn_0c_0 in your MySQL server. If the database hbtn_0c_0 already exists, don't fail.
 + 2-remove_database.sql: A script that deletes the database hbtn_0c_0 in your MySQL server. If the database hbtn_0c_0 doesn’t exist, don't fail.
 + 3-list_tables.sql: A script that lists all the tables of a database in your MySQL server. The database name will be passed as argument of mysql command.
 + 4-first_table.sql: A script that creates a table called first_table in the current database in your MySQL server. first_table description: id INT, name VARCHAR(256).
@@ -40,5 +43,5 @@ id INT, name VARCHAR(256), score INT. Create these records: id = 1, name = “Jo
 + 15-groups.sql: Script that lists the number of records with the same score in the table second_table of the database hbtn_0c_0 in your MySQL server. The result should display: the score and the number of records for this score with the label number. The list should be sorted by the number of records (descending).
 + 16-no_link.sql: Script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server. Don’t list rows without a name value. Results should display the score and the name (in this order). Records should be listed by descending score.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODQxNDI5OV19
+eyJoaXN0b3J5IjpbMTMxMDQzNDcwNV19
 -->
