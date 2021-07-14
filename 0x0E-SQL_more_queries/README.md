@@ -1,6 +1,6 @@
 ## :pencil2:  SQL - More queries
 
-This folder contains some scripts to use the open source database management software MySQL. Here we found commands to create a new user, grant privileges, create tables with some characteristics like NOT
+This folder contains some scripts to use the open source database management software MySQL. Here we found commands to create a new user, grant privileges, create tables with some characteristics as NOT NULL, DEFAULT value, UNIQUE, PRIMARY KEY and FOREIGN KEY,  AUTO_INCREMENT. Additionaly, the use of the key
 
 ### Requirements:
 All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
@@ -42,5 +42,5 @@ Here a short description of each script:
 + 15-comedy_only.sql: Script that lists all Comedy shows in the database hbtn_0d_tvshows. The tv_genres table contains only one record where name = Comedy (but the id can be different). Each record should display: tv_shows.title. Results must be sorted in ascending order by the show title. The database name will be passed as an argument of the mysql command.
 + 16-shows_by_genre.sql: Script that lists all shows, and all genres linked to that show, from the database hbtn_0d_tvshows. If a show doesn’t have a genre, display NULL in the genre column. Each record should display: tv_shows.title - tv_genres.name. Results must be sorted in ascending order by the show title and genre name. The database name will be passed as an argument of the mysql command.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5NjEwNDEwXX0=
+eyJoaXN0b3J5IjpbMTI2OTgyMjUzMl19
 -->
