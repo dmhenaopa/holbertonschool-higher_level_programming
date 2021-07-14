@@ -43,6 +43,8 @@ id INT, name VARCHAR(256), score INT. Create these records: id = 1, name = “Jo
 + [15-groups.sql](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x0D-SQL_introduction/15-groups.sql): Script that lists the number of records with the same score in the table second_table of the database hbtn_0c_0 in your MySQL server. The result should display: the score and the number of records for this score with the label number. The list should be sorted by the number of records (descending).
 + [16-no_link.sql](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x0D-SQL_introduction/16-no_link.sql): Script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server. Don’t list rows without a name value. Results should display the score and the name (in this order). Records should be listed by descending score.
 + [101-avg_temperatures.sql](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x0D-SQL_introduction/101-avg_temperatures.sql): Script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending).
++ [102-top_city.sql](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x0D-SQL_introduction/102-top_city.sql): Script that displays the top 3 of cities temperature during July and August ordered by temperature (descending).
++ [103-max_state.sql](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x0D-SQL_introduction/103-max_state.sql): Script that displays the max temperature of each state (ordered by State name).
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE5MTMwMDk3ODFdfQ==
 -->
