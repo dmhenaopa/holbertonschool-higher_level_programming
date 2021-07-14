@@ -1,3 +1,28 @@
+## :pencil2:  SQL - More queries
+
+This folder contains some scripts to use the open source database management software MySQL. Here we found commands to
+
+### Requirements:
+All commands were tested on Ubuntu 14.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
+
+Additionally, MySQL database management software was used. The version of MySQL: 14.14 Distrib 5.5.62, for debian-linux-gnu (x86_64) using readline 6.3.
+
+If you don't have MySQL installed, download it and install as shown (Ubuntu):
+
+    sudo apt-get install mysql-server
+
+### Usage:
+You need to execute as follows:
+
+    cat file.sql | mysql -hlocalhost -uroot -p
+
+Some of the files additionally require that you pass the name of the database with which you want to work or that you want to modify. In these cases the execution will be like this:
+
+    cat file.sql | mysql -hlocalhost -uroot -p mydatabase
+
+### Executable files:
+Here a short description of each script:
+
 A short description of each script:
 + 0-privileges.sql: Script that lists all privileges of the MySQL users user_0d_1 and user_0d_2 on your server (in localhost).
 + 1-create_user.sql: Script that creates the MySQL server user user_0d_1. user_0d_1 should have all privileges on your MySQL server. The user_0d_1 password should be set to user_0d_1_pwd. If the user user_0d_1 already exists, your script should not fail.
@@ -17,5 +42,5 @@ A short description of each script:
 + 15-comedy_only.sql: Script that lists all Comedy shows in the database hbtn_0d_tvshows. The tv_genres table contains only one record where name = Comedy (but the id can be different). Each record should display: tv_shows.title. Results must be sorted in ascending order by the show title. The database name will be passed as an argument of the mysql command.
 + 16-shows_by_genre.sql: Script that lists all shows, and all genres linked to that show, from the database hbtn_0d_tvshows. If a show doesn’t have a genre, display NULL in the genre column. Each record should display: tv_shows.title - tv_genres.name. Results must be sorted in ascending order by the show title and genre name. The database name will be passed as an argument of the mysql command.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3NzQ2OTYyXX0=
+eyJoaXN0b3J5IjpbMTUyNzY3NjgzOV19
 -->
