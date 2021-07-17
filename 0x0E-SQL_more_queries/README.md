@@ -44,5 +44,5 @@ Here a short description of each script:
 + [100-not_my_genres.sql](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x0E-SQL_more_queries/100-not_my_genres.sql): Script that uses the hbtn_0d_tvshows database to list all genres not linked to the show Dexter. The tv_shows table contains only one record where title = Dexter (but the id can be different). Each record should display: tv_genres.name. Results must be sorted in ascending order by the genre name.
 + [101-not_a_comedy.sql](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x0E-SQL_more_queries/101-not_a_comedy.sql): Script that lists all shows without the genre Comedy in the database hbtn_0d_tvshows. The tv_genres table contains only one record where name = Comedy (but the id can be different). Each record should display: tv_shows.title. Results must be sorted in ascending order by the show title.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTY3OTY4M119
+eyJoaXN0b3J5IjpbLTI0NTQxMDkyM119
 -->
