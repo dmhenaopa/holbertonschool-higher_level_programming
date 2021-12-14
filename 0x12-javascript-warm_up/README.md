@@ -9,17 +9,22 @@ Additionally, node (version 14.x) was used.
 
 If you don't have Node 14 installed, download it and install as shown (Ubuntu):
 
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-```
-sudo apt-get install -y nodejs
-```### Usage:
-You need to execute as follows:
+    curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+    sudo apt-get install -y nodejs
 
-    cat file.sql | mysql -hlocalhost -uroot -p
+### Usage:
+Verify that the files have execution permissions before being used! **If not, use the following command:**
 
-Some of the files additionally require that you pass the name of the database with which you want to work or that you want to modify. In these cases the execution will be like this:
+    chmod u+x name_of_file ###To make the file executable
 
-    cat file.sql | mysql -hlocalhost -uroot -p mydatabase
+In all cases, all files, the way to execute them is by putting a period and a slash before the command name. As follows:
+
+    ./name_of_file ###To execute the file
+
+### Executable files:
+
+Here a short description of each script:
+
 + 0-javascript_is_amazing.js: A script that prints “JavaScript is amazing”.
 + 1-multi_languages.js: A script that prints 3 lines (The first line: “C is fun”; The second line: “Python is cool”; The third line: “JavaScript is amazing”).
 + 2-arguments.js: A script that prints a message depending of the number of arguments passed (If no arguments are passed to the script, print “No argument”; If only one argument is passed to the script, print “Argument found”; Otherwise, print “Arguments found”).
@@ -35,5 +40,5 @@ Some of the files additionally require that you pass the name of the database wi
 + 12-object.js: A script to replace the value 12 with 89.
 + 13-add.js: A function that returns the addition of 2 integers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTA4ODkyODRdfQ==
+eyJoaXN0b3J5IjpbLTE5ODIxNzYxNTVdfQ==
 -->
