@@ -1,6 +1,24 @@
 ## :pencil2: JavaScript - Warm up
 
-This folder contains JavaScript basic scripts. Here we found commands to create variables and constants, how to use if, if... else statements, how to use loops, how to declare and use a function, how to import a file   short description of each script file:
+This folder contains JavaScript basic scripts. Here we found commands to create variables and constants, how to use if, if... else statements, how to use loops, how to declare and use a function and how to import a file.  
+
+### Requirements:
+All commands were tested on Ubuntu 20.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
+
+Additionally, MySQL database management software was used. The version of MySQL: 14.14 Distrib 5.5.62, for debian-linux-gnu (x86_64) using readline 6.3.
+
+If you don't have MySQL installed, download it and install as shown (Ubuntu):
+
+    sudo apt-get install mysql-server
+
+### Usage:
+You need to execute as follows:
+
+    cat file.sql | mysql -hlocalhost -uroot -p
+
+Some of the files additionally require that you pass the name of the database with which you want to work or that you want to modify. In these cases the execution will be like this:
+
+    cat file.sql | mysql -hlocalhost -uroot -p mydatabase
 + 0-javascript_is_amazing.js: A script that prints “JavaScript is amazing”.
 + 1-multi_languages.js: A script that prints 3 lines (The first line: “C is fun”; The second line: “Python is cool”; The third line: “JavaScript is amazing”).
 + 2-arguments.js: A script that prints a message depending of the number of arguments passed (If no arguments are passed to the script, print “No argument”; If only one argument is passed to the script, print “Argument found”; Otherwise, print “Arguments found”).
@@ -16,5 +34,5 @@ This folder contains JavaScript basic scripts. Here we found commands to create 
 + 12-object.js: A script to replace the value 12 with 89.
 + 13-add.js: A function that returns the addition of 2 integers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTI0MzU2MV19
+eyJoaXN0b3J5IjpbLTE5OTkxMTcxNTVdfQ==
 -->
