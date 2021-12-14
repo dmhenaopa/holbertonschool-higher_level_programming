@@ -40,9 +40,10 @@ Here a short description of each script:
 + [8-square.js]: A script that prints a square. The first argument is the size of the square. If the first argument can’t be converted to an integer, print “Missing size”.
 + [9-add.js]: A script that prints the addition of 2 integers. The first argument is the first integer. The second argument is the second integer.
 + [10-factorial.js]: A script that computes and prints a factorial. The first argument is integer (argument can be cast as integer) used for computing the factorial. Factorial of NaN is 1.
-+ + [103-object_fct.js]:+ [11-second_biggest.js]: A script that searches the second biggest integer in the list of arguments. If no argument passed, print 0. If the number of arguments is 1, print 0.
++ [103-object_fct.js]: A script that increments the integer value of a pre-defined object.
++ [11-second_biggest.js]: A script that searches the second biggest integer in the list of arguments. If no argument passed, print 0. If the number of arguments is 1, print 0.
 + [12-object.js]: A script to replace the value 12 with 89.
 + [13-add.js]: A function that returns the addition of 2 integers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzUyMjUxNF19
+eyJoaXN0b3J5IjpbMTM2NzQ5NjU5OF19
 -->
