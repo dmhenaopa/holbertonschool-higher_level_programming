@@ -1,3 +1,5 @@
+## :pencil2: JavaScript - Warm up
+
 A short description of each script file:
 + 0-javascript_is_amazing.js: A script that prints “JavaScript is amazing”.
 + 1-multi_languages.js: A script that prints 3 lines (The first line: “C is fun”; The second line: “Python is cool”; The third line: “JavaScript is amazing”).
@@ -14,5 +16,5 @@ A short description of each script file:
 + 12-object.js: A script to replace the value 12 with 89.
 + 13-add.js: A function that returns the addition of 2 integers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzYzNDUxMDJdfQ==
+eyJoaXN0b3J5IjpbLTM0ODk1NzAxNV19
 -->
