@@ -5,13 +5,14 @@ This folder contains JavaScript basic scripts. Here we found commands to create 
 ### Requirements:
 All commands were tested on Ubuntu 20.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
 
-Additionally, MySQL database management software was used. The version of MySQL: 14.14 Distrib 5.5.62, for debian-linux-gnu (x86_64) using readline 6.3.
+Additionally, node (version 14.x) was used.
 
-If you don't have MySQL installed, download it and install as shown (Ubuntu):
+If you don't have Node 14 installed, download it and install as shown (Ubuntu):
 
-    sudo apt-get install mysql-server
-
-### Usage:
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+```
+sudo apt-get install -y nodejs
+```### Usage:
 You need to execute as follows:
 
     cat file.sql | mysql -hlocalhost -uroot -p
@@ -34,5 +35,5 @@ Some of the files additionally require that you pass the name of the database wi
 + 12-object.js: A script to replace the value 12 with 89.
 + 13-add.js: A function that returns the addition of 2 integers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTkxMTcxNTVdfQ==
+eyJoaXN0b3J5IjpbLTE3MTA4ODkyODRdfQ==
 -->
