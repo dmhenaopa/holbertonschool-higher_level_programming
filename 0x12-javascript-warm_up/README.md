@@ -13,3 +13,6 @@ A short description of each script file:
 + 11-second_biggest.js: A script that searches the second biggest integer in the list of arguments. If no argument passed, print 0. If the number of arguments is 1, print 0.
 + 12-object.js: A script to replace the value 12 with 89.
 + 13-add.js: A function that returns the addition of 2 integers.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwMzYzNDUxMDJdfQ==
+-->
