@@ -21,6 +21,10 @@ In all cases, all files, the way to execute them is by putting a period and a sl
 
     ./name_of_file ###To execute the file
 
+Some scripts need arguments, you can pass arguments as follows:
+
+    ./name_of_file argument1 argument2... ###To execute the file
+
 ### Executable files:
 
 Here a short description of each script:
@@ -40,5 +44,5 @@ Here a short description of each script:
 + 12-object.js: A script to replace the value 12 with 89.
 + 13-add.js: A function that returns the addition of 2 integers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODIxNzYxNTVdfQ==
+eyJoaXN0b3J5IjpbMTE5MDUxMTA4NV19
 -->
