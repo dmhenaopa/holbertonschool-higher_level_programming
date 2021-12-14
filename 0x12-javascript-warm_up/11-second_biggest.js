@@ -8,6 +8,6 @@ if (args[2] === undefined || args[3] === undefined) {
   for (let i = 2; i < args.length; i++) {
     newArray.push(parseInt(args[i]));
   }
-  newArray.sort();
+  newArray.sort(function (a, b) { return a - b; });
   console.log(newArray[newArray.length - 2]);
 }
