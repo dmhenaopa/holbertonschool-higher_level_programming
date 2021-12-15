@@ -1,5 +1,5 @@
 ## :pencil2: JavaScript - Objects, scopes and closures
-This folder contains JavaScript basic scripts. Here we found commands to create classes, create a constructor, create an empty object, create and use an instance method, inherits from a parent class .  
+This folder contains JavaScript basic scripts. Here we found commands to create classes, create a constructor, create an empty object, create and use an instance method, inherits from a parent class, define and use a prototype.  
 
 ### Requirements:
 All commands were tested on Ubuntu 20.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
@@ -42,5 +42,5 @@ le using the character X, an instance method called rotate() that exchanges the 
 + 9-logme.js: A function that prints the number of arguments already printed and the new argument value. Output format: <number arguments already printed>: <current argument value>.
 + 10-converter.js: A function that converts a number from base 10 to another base passed as argument. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzEzODAzNTldfQ==
+eyJoaXN0b3J5IjpbLTYzNTQ2MTQxNV19
 -->
