@@ -27,8 +27,8 @@ Some scripts need arguments, you can pass arguments as follows:
 ### Executable files:
 
 Here a short description of each script:
-+ [0-rectangle.js](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/0-rectangle.js): A script with an empty class Rectangle that defines a rectangle.
-+ [1-rectangle.js](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/1-rectangle.js): A script with a class Rectangle that defines a rectangle. The constructor take 2 arguments w (width) and h (height).
++ [0-rectangle.js](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/0-rectangle.js): A script with an empty class Rectangle that defines a rectangle. Associated with the 0-main.js file.
++ [1-rectangle.js](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/1-rectangle.js): A script with a class Rectangle that defines a rectangle. The constructor take 2 arguments w (width) and h (height). Associated with the 1-main.js file.
 + [2-rectangle.js](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/2-rectangle.js): A script with a class Rectangle that defines a rectangle. The constructor take 2 arguments w (width) and h (height). If w or h is equal to 0 or not a positive integer, create an empty object.
 + [3-rectangle.js](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/3-rectangle.js): A script with a class Rectangle that defines a rectangle. The constructor take 2 arguments w (width) and h (height). I
 f w or h is equal to 0 or not a positive integer, create an empty object. With an instance method called print() that prints the rectangle using the character X.
@@ -42,5 +42,5 @@ le using the character X, an instance method called rotate() that exchanges the 
 + [9-logme.js](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/9-logme.js): A function that prints the number of arguments already printed and the new argument value. Output format: <number arguments already printed>: <current argument value>.
 + [10-converter.js](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/10-converter.js): A function that converts a number from base 10 to another base passed as argument. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Njk2MTc3Ml19
+eyJoaXN0b3J5IjpbMTgxNjQxODg2OV19
 -->
