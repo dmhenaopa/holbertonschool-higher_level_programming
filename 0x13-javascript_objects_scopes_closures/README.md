@@ -1,3 +1,6 @@
+## :pencil2: JavaScript - Objects, scopes and closures
+
+
 A short description of each script file:
 + 0-rectangle.js: A script with an empty class Rectangle that defines a rectangle.
 + 1-rectangle.js: A script with a class Rectangle that defines a rectangle. The constructor take 2 arguments w (width) and h (height).
@@ -14,5 +17,5 @@ le using the character X, an instance method called rotate() that exchanges the 
 + 9-logme.js: A function that prints the number of arguments already printed and the new argument value. Output format: <number arguments already printed>: <current argument value>.
 + 10-converter.js: A function that converts a number from base 10 to another base passed as argument. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODUxNzU2MDddfQ==
+eyJoaXN0b3J5IjpbLTE1NzU2NDQ3MDBdfQ==
 -->
