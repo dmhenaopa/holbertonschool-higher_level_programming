@@ -1,7 +1,32 @@
 ## :pencil2: JavaScript - Objects, scopes and closures
+This folder contains JavaScript basic scripts. Here we found commands to create classes, create a constructor, create an empty object,.  
 
+### Requirements:
+All commands were tested on Ubuntu 20.04 LTS. Although the commands might work fine on other distributions, versions or operative systems.
 
-A short description of each script file:
+Additionally, node (version 14.x) was used.
+
+If you don't have Node 14 installed, download it and install as shown (Ubuntu):
+
+    curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+    sudo apt-get install -y nodejs
+
+### Usage:
+Verify that the files have execution permissions before being used! **If not, use the following command:**
+
+    chmod u+x name_of_file ###To make the file executable
+
+In all cases, all files, the way to execute them is by putting a period and a slash before the command name. As follows:
+
+    ./name_of_file ###To execute the file
+
+Some scripts need arguments, you can pass arguments as follows:
+
+    ./name_of_file argument1 argument2... ###To execute the file
+
+### Executable files:
+
+Here a short description of each script:
 + 0-rectangle.js: A script with an empty class Rectangle that defines a rectangle.
 + 1-rectangle.js: A script with a class Rectangle that defines a rectangle. The constructor take 2 arguments w (width) and h (height).
 + 2-rectangle.js: A script with a class Rectangle that defines a rectangle. The constructor take 2 arguments w (width) and h (height). If w or h is equal to 0 or not a positive integer, create an empty object.
@@ -17,5 +42,5 @@ le using the character X, an instance method called rotate() that exchanges the 
 + 9-logme.js: A function that prints the number of arguments already printed and the new argument value. Output format: <number arguments already printed>: <current argument value>.
 + 10-converter.js: A function that converts a number from base 10 to another base passed as argument. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU2NDQ3MDBdfQ==
+eyJoaXN0b3J5IjpbMTczOTYxMzMxOV19
 -->
