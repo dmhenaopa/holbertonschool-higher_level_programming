@@ -41,6 +41,7 @@ le using the character X, an instance method called rotate() that exchanges the 
 + [8-esrever.js](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/8-esrever.js): A function that returns the reversed version of a list. Associated with the 8-main.js file.
 + [9-logme.js](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/9-logme.js): A function that prints the number of arguments already printed and the new argument value. Output format: `<number arguments already printed>: <current argument value>`. Associated with the 9-main.js file.
 + [10-converter.js](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/10-converter.js): A function that converts a number from base 10 to another base passed as argument. Associated with the 10-main.js file.
++ [100-map.js](https://github.com/dmhenaopa/holbertonschool-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/100-map.js): A script that imports an array and computes a new array using map(). The new list is created with each value equal to the value of the initial list, multipled by the index in the list. Associated with the 100-data.js file.
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTM2NDk4MjI4MF19
 -->
