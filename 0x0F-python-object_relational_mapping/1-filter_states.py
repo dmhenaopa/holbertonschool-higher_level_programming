@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
             self.cursor = self.connection.cursor()
 
-            """----------------------------Methods--------------------------"""
+        """----------------------------Methods--------------------------"""
         def states_starting_N(self):
             sql = "SELECT * FROM states WHERE name REGEXP '^N' ORDER BY id ASC"
 
