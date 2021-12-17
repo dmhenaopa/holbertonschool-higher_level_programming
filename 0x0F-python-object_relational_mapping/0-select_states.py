@@ -42,7 +42,7 @@ if __name__ == "__main__":
                     print(row)
 
             except Exception as e:
-                    raise
+                raise
 
         def close(self):
             """
