@@ -44,7 +44,8 @@ if __name__ == "__main__":
                 rows = self.cursor.fetchall()
 
                 for row in rows:
-                    print(row)
+                    if row[1] == state_name:
+                        print(row)
 
             except Exception as e:
                 raise
