@@ -36,7 +36,7 @@ if __name__ == "__main__":
                Args:
                    name: argument with name of state to select
             """
-            sql = "SELECT * FROM states WHERE name = %s' \
+            sql = "SELECT * FROM states WHERE name = %s \
                 ORDER BY id ASC"
 
             try:
