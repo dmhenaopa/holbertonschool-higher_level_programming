@@ -45,6 +45,6 @@ if __name__ == '__main__':
             self.cursor.close()
             self.connection.close()
 
-database = DataBase()
-database.states_starting_N()
-database.close()
+    database = DataBase()
+    database.states_starting_N()
+    database.close()
