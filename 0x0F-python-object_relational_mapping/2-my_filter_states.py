@@ -56,6 +56,6 @@ if __name__ == "__main__":
             self.cursor.close()
             self.connection.close()
 
-database = DataBase()
-database.select_by_name(state_name)
-database.close()
+    database = DataBase()
+    database.select_by_name(state_name)
+    database.close()
