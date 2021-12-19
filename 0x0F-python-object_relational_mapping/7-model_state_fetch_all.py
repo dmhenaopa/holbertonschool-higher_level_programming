@@ -15,13 +15,12 @@ if __name__ == "__main__":
     password = argv[2]
     database_name = argv[3]
 
-    engine = create_engine('mysql+mysqldb://{}:{}@{}/{}'
+    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'
                            .format(username,
                                    password,
-                                   hostname,
                                    database_name))
     Base.metadata.create_all(engine)
-    Session = sessionmaker(engine)
+    Session = sessionmaker(bind=engine)
     session = Session()
 
     """SELECT * FROM states ORDER BY id ASC;"""
