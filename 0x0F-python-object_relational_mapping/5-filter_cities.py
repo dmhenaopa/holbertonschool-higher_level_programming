@@ -35,19 +35,17 @@ if __name__ == "__main__":
                Args:
                    name: argument with name of state to select
             """
-            sql = "SELECT {}.name \
-                FROM {} AS table1 JOIN {} AS table2 \
-                ON table1.state_id = table2.id \
-                WHERE table2.name \
-                LIKE '{}'".format(table_name_1, table_name_1,
-                                  table_name_2, name)
+            sql = "SELECT cities.name \
+                FROM cities JOIN states \
+                ON cities.state_id = states.id \
+                WHERE states.name \
+                LIKE '{}'".format(name)
 
             try:
                 self.cursor.execute(sql)
                 rows = self.cursor.fetchall()
 
-                for row in rows:
-                    print(", ".join(row[0]))
+                print(", ".join(row[0] for row in rows))
 
             except Exception as e:
                 raise
