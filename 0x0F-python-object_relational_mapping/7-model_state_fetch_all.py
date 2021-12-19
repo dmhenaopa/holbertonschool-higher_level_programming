@@ -8,22 +8,22 @@ from model_state import Base, State
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-hostname = "localhost"
-number_port = 3306
-username = argv[1]
-password = argv[2]
-database_name = argv[3]
+if __name__ == "__main__":
+    hostname = "localhost"
+    number_port = 3306
+    username = argv[1]
+    password = argv[2]
+    database_name = argv[3]
 
-engine = create_engine('mysql+mysqldb://{}:{}@{}/{}'
-                       .format(username,
-                               password,
-                               hostname,
-                               database_name))
-Base.metadata.create_all(engine)
-Session = sessionmaker(engine)
-session = Session()
+    engine = create_engine('mysql+mysqldb://{}:{}@{}/{}'
+                           .format(username,
+                                   password,
+                                   hostname,
+                                   database_name))
+    Base.metadata.create_all(engine)
+    Session = sessionmaker(engine)
+    session = Session()
 
-if __name__ == '__main__':
     """SELECT * FROM states ORDER BY id ASC;"""
     states = session.query((State).order_by(State.id))
 
