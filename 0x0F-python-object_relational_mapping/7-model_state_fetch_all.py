@@ -9,7 +9,6 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 if __name__ == "__main__":
-    hostname = "localhost"
     number_port = 3306
     username = argv[1]
     password = argv[2]
@@ -24,9 +23,8 @@ if __name__ == "__main__":
     session = Session()
 
     """SELECT * FROM states ORDER BY id ASC;"""
-    states = session.query(State).order_by(State.id)
-
+    states = session.query(State).order_by(asc(State.id))
     for state in states:
-        print(print("{}: {}".format(state.id, state.name)))
+        print("{}: {}".format(state.id, state.name))
 
     session.close()
