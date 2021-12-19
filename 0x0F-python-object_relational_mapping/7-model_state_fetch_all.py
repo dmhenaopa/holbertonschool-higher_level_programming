@@ -23,8 +23,7 @@ if __name__ == "__main__":
     session = Session()
 
     """SELECT * FROM states ORDER BY id ASC;"""
-    states = session.query(State).order_by(asc(State.id))
-    for state in states:
+    for state in session.query(State).order_by(asc(State.id)):
         print("{}: {}".format(state.id, state.name))
 
     session.close()
