@@ -23,7 +23,7 @@ if __name__ == "__main__":
     session = Session()
 
     """SELECT * FROM states ORDER BY id ASC;"""
-    states = session.query(State).order_by(asc(State.id))
+    states = session.query(State).order_by(State.id)
 
     for state in states:
         print("{}: {}".format(state.id, state.name))
