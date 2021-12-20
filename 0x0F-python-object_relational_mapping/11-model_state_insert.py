@@ -14,7 +14,7 @@ if __name__ == "__main__":
     username = argv[1]
     password = argv[2]
     database_name = argv[3]
-    state_name = argv[4]
+    state_name = "Louisiana"
 
     engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'
                            .format(username, password, database_name),
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     new_state = State(name=state_name)
     session.add(new_state)
 
-    print(new_state.id)
+    print("{}".format(new_state.id))
 
     session.commit()
     session.close()
