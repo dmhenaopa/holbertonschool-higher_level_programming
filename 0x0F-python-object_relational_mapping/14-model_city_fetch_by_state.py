@@ -24,11 +24,11 @@ if __name__ == "__main__":
     session = Session()
 
     """Foreign key is state_id in City"""
-    objects = session.query(State, City)\
-                     .filter(State.id == City.state_id)\
+    objects = session.query(City, State)\
+                     .filter(City.state_id == State.id)\
                      .order_by(City.id).all()
 
-    for state, city in objects:
+    for city, state in objects:
         print("{}: ({}) {}".format(state.name, city.id, city.name))
 
     session.close()
