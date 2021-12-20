@@ -8,6 +8,7 @@ from model_state import Base, State
 import sqlalchemy
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm.exc import NoResultFound
 
 if __name__ == "__main__":
     number_port = 3306
@@ -22,13 +23,11 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    """SELECT * FROM states ORDER BY id ASC;"""
-    state = session.query(State).filter(State.id == 1)
-
-    if state is None:
-        print("Nothing")
-
-    else:
+    try:
+        state = session.query(State).one()
         print("{}: {}".format(state.id, state.name))
+
+    except NoResultFound:
+        print("Nothing")
 
     session.close()
