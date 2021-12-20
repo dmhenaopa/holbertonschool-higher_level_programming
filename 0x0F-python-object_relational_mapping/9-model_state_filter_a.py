@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     """SELECT * FROM states ORDER BY id ASC;"""
     states = session.query(State).order_by(State.id)\
-                                 .filter(State.name.contains(`a`))
+                                 .filter(State.name.contains("a"))
 
     for state in states:
         print("{}: {}".format(state.id, state.name))
