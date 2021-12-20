@@ -23,11 +23,11 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    try:
-        state = session.query(State).order_by(State.id).one()
-        print("{}: {}".format(state.id, state.name))
-
-    except NoResultFound:
+    state = session.query(State).order_by(State.id).first()
+    if not state:
         print("Nothing")
+
+    else:
+        print("{}: {}".format(state.id, state.name))
 
     session.close()
