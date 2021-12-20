@@ -26,7 +26,7 @@ if __name__ == "__main__":
     new_state = State(name=state_name)
     session.add(new_state)
 
-    print("{}".format(new_state.id))
+    print(new_state.id)
 
     session.commit()
     session.close()
