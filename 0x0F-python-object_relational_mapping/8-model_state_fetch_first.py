@@ -24,7 +24,7 @@ if __name__ == "__main__":
     session = Session()
 
     try:
-        state = session.query(State).one()
+        state = session.query(State).order_by(State.id).one()
         print("{}: {}".format(state.id, state.name))
 
     except NoResultFound:
