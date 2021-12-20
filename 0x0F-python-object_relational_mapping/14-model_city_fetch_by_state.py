@@ -5,6 +5,7 @@
 """
 from sys import argv
 from model_state import Base, State
+from model_city import City
 import sqlalchemy
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -22,8 +23,7 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    """SELECT * FROM states ORDER BY id ASC;"""
-    cities = session.query(City).order_by(City.id)
+    cities = session.query(City).order_by(City.id).all()
 
     for city in cities:
         print("{}: ({}) {}".format(state.name, city.id, city.name))
