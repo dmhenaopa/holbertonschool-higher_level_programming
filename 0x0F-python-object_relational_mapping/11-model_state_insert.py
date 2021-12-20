@@ -26,7 +26,8 @@ if __name__ == "__main__":
     new_state = State(name=state_name)
     session.add(new_state)
 
-    print("{}".format(new_state.id))
+    print("{}".format(session.query(State)
+          .filter(State.name == state_name).first))
 
     session.commit()
     session.close()
