@@ -1,12 +1,11 @@
 #!/usr/bin/python3
 """
    Module that contains the class definition of a City
+   that inherits from Base imported from model_state
 """
-from sqlalchemy.ext.declarative import declarative_base
+import sqlalchemy
 from sqlalchemy import Column, Integer, String, ForeignKey
 from model_state import Base, State
-
-Base = declarative_base()
 
 
 class City(Base):
