@@ -3,5 +3,6 @@
 from urllib import request
 
 
-with request.urlopen('https://intranet.hbtn.io/status') as response:
-    print(response.info()["X-Request-Id"])
+if __name__ == "__main__":
+    with request.urlopen('https://intranet.hbtn.io/status') as response:
+        print(response.info()["X-Request-Id"])
