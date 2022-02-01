@@ -16,7 +16,7 @@ request(url, function (error, response, body) {
           value.forEach(function (element, index, array) {
             const characters = element.characters;
             for (const [, valuechar] of Object.entries(characters)) {
-              if (valuechar === 'https://swapi-api.hbtn.io/api/people/18/') {
+              if (valuechar === ('https://swapi-api.hbtn.io/api/people/18/')) {
                 counter++;
               }
             }
@@ -24,6 +24,8 @@ request(url, function (error, response, body) {
           console.log(counter);
         }
       }
+    } else {
+      console.log('code:', response && response.statusCode);
     }
   }
 });
