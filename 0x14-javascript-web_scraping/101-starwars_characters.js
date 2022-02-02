@@ -12,6 +12,7 @@ request(url, function (error, response, body) {
       const information = JSON.parse(body);
       const characters = information.characters;
 
+      characters.sort();
       for (let i = 0; i < characters.length; i++) {
         request(characters[i], function (error, response, body) {
           if (error) {
