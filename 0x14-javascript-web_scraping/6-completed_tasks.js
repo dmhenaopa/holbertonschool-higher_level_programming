@@ -16,8 +16,12 @@ request(url, function (error, response, body) {
       }
 
       for (let i = 0; i < information.length; i++) {
-        if (information[i].completed === true) {
-          object[information[i].userId]++;
+        if (information[i].completed) {
+          if (object[information[i].userId] === undefined) {
+            object[information[i].userId] = 1;
+          } else {
+            object[information[i].userId]++;
+          }
         }
       }
       console.log(object);
