@@ -16,7 +16,7 @@ request(url, function (error, response, body) {
       }
 
       for (let i = 0; i < information.length; i++) {
-        if (information[i].completed) {
+        if (information[i].completed === true) {
           object[information[i].userId]++;
         }
       }
