@@ -4,12 +4,12 @@ const argumentsArray = process.argv;
 
 const url = argumentsArray[2];
 const object = {};
-
 request(url, function (error, response, body) {
   if (error) {
     console.error('error:', error);
-  } else if (response && response.statusCode === 200) {
+  } else if (response.statusCode === 200) {
     const information = JSON.parse(body);
+
     for (let i = 0; i < information.length; i++) {
       object[information[i].userId] = 0;
     }
