@@ -20,6 +20,7 @@ In this repository we have some basic scripts to use in Python. This is the firs
 + [0x10-python-network_0](https://github.com/dmhenaopa//holbertonschool-higher_level_programming/tree/master/0x10-python-network_0)
 + [0x11-python-network_1](https://github.com/dmhenaopa//holbertonschool-higher_level_programming/tree/master/0x11-python-network_1)
 + [0x14-javascript-web_scraping](https://github.com/dmhenaopa//holbertonschool-higher_level_programming/tree/master/0x14-javascript-web_scraping)
++ [0x15-javascript-web_jquery](https://github.com/dmhenaopa//holbertonschool-higher_level_programming/tree/master/0x15-javascript-web_jquery)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE0MTE2NzI5Ml19
 -->
